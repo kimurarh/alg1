@@ -1,7 +1,7 @@
 ## Capítulo 5
 
-[Exercícios Complementares](#Exercícios-Complementares)
-
+* [Exercícios](#Exercícios)<br>
+* [Exercícios Complementares](#Exercícios-Complementares)
 
 ### Exercícios
 
