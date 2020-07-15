@@ -21,5 +21,5 @@ begin
 	if n + m > 10 then
 		writeln(n)
 	else
-		writeln(m)
+		writeln(m);
 end.

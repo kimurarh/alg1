@@ -54,5 +54,5 @@ begin
 		writeln('m = ', m);
 
 	end;
-	writeln(y)
+	writeln(y);
 end.

@@ -20,5 +20,5 @@ begin
 	if emprestimo <= salario * 0.3 then
 		writeln('sim')
 	else
-		writeln('nao')
+		writeln('nao');
 end.

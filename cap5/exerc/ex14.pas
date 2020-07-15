@@ -17,7 +17,7 @@ var
 
 begin
 	read(x, y, z);
-	if (y >= x) and (y < z)then
+	if (y >= x) and (y < z) then
 		writeln('esta no intervalo')
 	else
 		writeln('nao esta no intervalo');

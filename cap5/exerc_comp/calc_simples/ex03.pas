@@ -19,5 +19,5 @@ var valor, desconto: real;
 
 begin
 	read(valor, desconto);
-	writeln(valor - desconto:0:2)
+	writeln(valor - desconto:0:2);
 end.

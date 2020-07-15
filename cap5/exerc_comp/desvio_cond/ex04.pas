@@ -24,6 +24,6 @@ begin
 		if n > 0 then
 			writeln('POSITIVO')
 		else
-			writeln('NEGATIVO')
+			writeln('NEGATIVO');
 	end;
 end.

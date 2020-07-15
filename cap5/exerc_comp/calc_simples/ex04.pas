@@ -17,5 +17,5 @@ var a, b: real;
 
 begin
 	read(a, b);
-	writeln((a + b)/ 2 :0:2)
+	writeln((a + b)/ 2 :0:2);
 end.

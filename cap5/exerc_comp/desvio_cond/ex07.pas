@@ -20,5 +20,5 @@ begin
 	if A mod B = 0 then
 		writeln('sim')
 	else
-		writeln('nao')
+		writeln('nao');
 end.

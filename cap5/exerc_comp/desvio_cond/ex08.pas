@@ -20,5 +20,5 @@ begin
 	if n mod 5 = 0 then
 		writeln('sim')
 	else
-		writeln('nao')
+		writeln('nao');
 end.

@@ -17,5 +17,5 @@ var n: integer;
 
 begin
 	read(n);
-	writeln(n + 1, ' ', n - 1)
+	writeln(n + 1, ' ', n - 1);
 end.

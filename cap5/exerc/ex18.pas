@@ -15,14 +15,15 @@ Faça um programa que leia uma massa de dados contendo a definição de várias 
 program equacao_segundo_grau;
 
 var
-	A, B, C: real;
+	A, B, C, delta: real;
 
 begin
 	read(A, B, C);
 	while (A <> 0) or (B <> 0) or (C <> 0) do
 	begin
-		write((-B - sqrt(B*B - 4*A*C))/(2*A):0:2, ' ');
-		writeln((-B + sqrt(B*B - 4*A*C))/(2*A):0:2);
+		delta := sqrt(B*B - 4*A*C);
+		write((-B - delta)/(2*A):0:2, ' ');
+		writeln((-B + delta)/(2*A):0:2);
 		read(A, B, C);
 	end;
 end.

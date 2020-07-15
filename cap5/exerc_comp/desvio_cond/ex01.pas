@@ -18,5 +18,5 @@ var n: real;
 begin
 	read(n);
 	if n > 20 then
-		writeln(n :0:2)
+		writeln(n :0:2);
 end.

@@ -20,5 +20,5 @@ begin
 	if n < m then
 		writeln(n:0:2)
 	else
-		writeln(m:0:2)
+		writeln(m:0:2);
 end.

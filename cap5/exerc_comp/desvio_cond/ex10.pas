@@ -20,5 +20,5 @@ begin
 	if n >= 0 then
 		writeln(sqrt(n) :0:2)
 	else
-		writeln(n*n :0:2)
+		writeln(n*n :0:2);
 end.

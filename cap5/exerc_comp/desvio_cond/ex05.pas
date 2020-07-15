@@ -22,5 +22,5 @@ begin
 		soma := soma + 8
 	else
 		soma := soma - 5;
-	writeln(soma:0:2)
+	writeln(soma:0:2);
 end.

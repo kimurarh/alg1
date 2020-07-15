@@ -19,6 +19,6 @@ begin
 	while cont <= 10 do
 	begin
 		writeln(n, ' x ', cont, ' = ', n * cont);
-		cont := cont + 1
+		cont := cont + 1;
 	end;
 end.

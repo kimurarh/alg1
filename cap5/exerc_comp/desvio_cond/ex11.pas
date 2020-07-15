@@ -21,5 +21,5 @@ begin
 	if n mod 21 = 0 then
 		writeln('sim')
 	else
-		writeln('nao')
+		writeln('nao');
 end.

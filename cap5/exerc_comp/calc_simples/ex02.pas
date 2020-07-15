@@ -17,5 +17,5 @@ var n,m: integer;
 
 begin
 	read(n, m);
-	writeln('SOMA = ', n + m)
+	writeln('SOMA = ', n + m);
 end.

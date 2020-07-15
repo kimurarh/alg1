@@ -20,5 +20,5 @@ begin
 	if n mod 2 = 0 then
 		writeln('PAR')
 	else
-		writeln('IMPAR')
+		writeln('IMPAR');
 end.

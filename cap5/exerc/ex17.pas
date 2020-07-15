@@ -20,7 +20,7 @@ begin
 	while(n <> 0) do
 	begin
 		writeln(n, ' ', n+2);		
-		read(n)
+		read(n);
 	end;
 end.
 
