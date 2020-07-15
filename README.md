@@ -3,7 +3,9 @@ Repositório com os programas escritos em Pascal durante o estudo da disciplina 
 
 Compilador utilizado: [Free Pascal](https://www.freepascal.org/)
 
-## Estrutura de um programa em Pascal
+## Informações Básicas 
+
+Estrutura de um programa em Pascal
 ```pascal
 program exemplo;
 var variavel_exemplo;
@@ -15,13 +17,12 @@ begin
 end.
 ```
 
-## Compilar e Executar um programa em Pascal
-Compilar:
+Como compilar:
 ```
   fpc exemplo.pas
 ```
 
-Executar:
+Como Executar:
 ```
   ./exemplo
 ```
