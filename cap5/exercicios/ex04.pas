@@ -3,18 +3,11 @@ EXERCÍCIO 4
 
 Faça um programa que some duas horas. A entrada deve ser feuta lendo-se dois inteiros por linha, em duas linhas, e a saída deve ser feita no formato especificado no exemplo abaixo:
 
-
-	Exemplo de entrada	|	Saída esperada
-	-----------------------------------------------------
-	12 52			|	
-	7 13			|	12:52 + 7:13 = 20:05
-	-----------------------------------------------------
-	20 15			|
-	1 45			|	20:15 + 1:45 = 22:00
-	-----------------------------------------------------
-	0 0			|
-	8 35			|	0:0 + 8:35 = 8:35
-	-----------------------------------------------------
+|Exemplo de entrada|Saída esperada      |
+|:----------------:|:------------------:|
+|12 52<br>7 13     |12:52 + 7:13 = 20:05|
+|20 15<br>1 45     |20:15 + 1:45 = 22:00|
+|0 0<br>8 35       |0:0 + 8:35 = 8:35   |
 
 *)
 

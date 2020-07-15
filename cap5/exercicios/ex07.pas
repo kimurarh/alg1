@@ -3,13 +3,11 @@ EXERCÍCIO 7
 
 Faça um programa que troque o conteúdo de duas variáveis. Exemplos:
 
-	Exemplo de entrada 	|	Saída esperada
-	-------------------------------------------------
-	3 7			|	7 3
-	-------------------------------------------------
-	-5 15 			|	15 -5
-	-------------------------------------------------
-	2 10			| 	10 2
+|Exemplo de entrada|Saída esperada|
+|:----------------:|:------------:|
+|3 7               |7 3           |
+|5 15              |15 -5         |
+|2 10              |10 2          |
 
 Troque o conteúdo SEM utilizar variáveis auxiliares
 

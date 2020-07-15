@@ -3,13 +3,11 @@ EXERCICIO 14
 
 Faça um programa que leia três números x, y, z do teclado e decida se x <= y < z. Seu programa deve imprimir a mensagem "esta no intervalo" ou "nao esta no intervalo" conforme o caso. Exemplo:
 
-	Exemplo de Entrada	|	Saída Esperada
-	---------------------------------------------
-			3 5 8		|	esta no intervalo
-	---------------------------------------------
-			3 8 8		|	nao esta no intervalo
-	---------------------------------------------
-			4 12 5		|	nao esta no intevalo
+|Exemplo de Entrada|Saída Esperada        |
+|:----------------:|:--------------------:|
+|3 5 8             |esta no intervalo     |
+|3 8 8             |nao esta no intervalo |
+|4 12 5            |nao esta no intervalo |
 *)
 
 program verifica_intervalo;

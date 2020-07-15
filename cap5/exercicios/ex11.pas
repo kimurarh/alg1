@@ -16,7 +16,7 @@ begin
 	begin
 		y := y + (x mod 2) * m;
 		x := x div 2;
-		m := m * 10;
+		m := m * 10
 	end;
 	writeln(y)
 end.
