@@ -298,6 +298,428 @@ Faça um programa que leia um número real e imprima a terça parte deste númer
 |10                |3.33          |
 |90                |30.00         |
 
+#### (6)
+Uma P.A. (progressão aritmética) é determinada pela sua razão (r) e pelo primeiro termo (a1). Faça um programa em Pascal que seja capaz de determinar o enésimo (n) termo (an) de uma P.A., dado a razão (r) e o primeiro termo (a1). Seu programa deve ler n, r, a1 do teclado e imprimir an .
+
+```
+an = a1 + (n - 1) * r
+```
+
+<table>
+  <tr>
+   <td colspan="3"><b>Exemplo de Entrada</b></td>
+   <td><b>Saída Esperada</b></td>
+  </tr>
+  <tr>
+    <td>n</td>
+    <td>r</td>
+    <td>a1</td>
+    <td>an</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>1</td>
+    <td>3</td>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>100</td>
+    <td>10</td>
+    <td>1</td>
+    <td>991</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>-2</td>
+    <td>0</td>
+    <td>-98</td>
+  </tr>
+</table>
+
+#### (7)
+Dada a razão (r) de uma P.A. (progressão aritmética) e um termo qualquer, k (ak). Faça um programa em Pascal que calcule o enésimo termo n (an). Seu programa deve ler k, ak, r, n do teclado e imprimir an.
+
+```
+an = ak + (n - r) * r
+```
+
+<table>
+  <tr>
+   <td colspan="4"><b>Exemplo de Entrada</b></td>
+   <td><b>Saída Esperada</b></td>
+  </tr>
+  <tr>
+    <td>k</td>
+    <td>ak</td>
+    <td>r</td>
+    <td>n</td>
+    <td>an</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>5</td>
+    <td>2</td>
+    <td>10</td>
+    <td>23</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>20</td>
+    <td>2</td>
+    <td>5</td>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>100</td>
+    <td>500</td>
+    <td>20</td>
+    <td>90</td>
+    <td>300</td>
+  </tr>
+</table>
+
+#### (8)
+Uma P.G. (progressão geométrica) é determinada pela sua razão (q) e pelo primeiro termo (a1). Faça um programa em Pascal que seja capaz de determinar o enésimo n termo (an) de uma P.G., dado a razão (q) e o primeiro termo (a1). Seu programa deve ler a1, q, n do teclado e imprimir an.
+
+```
+an = a1 * q^(n - 1)
+```
+
+<table>
+  <tr>
+   <td colspan="3"><b>Exemplo de Entrada</b></td>
+   <td><b>Saída Esperada</b></td>
+  </tr>
+  <tr>
+    <td>a1</td>
+    <td>q</td>
+    <td>n</td>
+    <td>an</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>1</td>
+    <td>100</td>
+    <td>1.00</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>2</td>
+    <td>10</td>
+    <td>1024.00</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>3</td>
+    <td>2</td>
+    <td>15.00</td>
+  </tr>
+</table>
+
+#### (9)
+Dada a razão (q) de uma P.G. (progressão geométrica) e um termo qualquer, k (ak). Faça um programa em Pascal para calcular o enésimo termo n (an). Seu programa deve ser k, ak, q, n do teclado e imprimir an.
+
+<table>
+  <tr>
+   <td colspan="4"><b>Exemplo de Entrada</b></td>
+   <td><b>Saída Esperada</b></td>
+  </tr>
+  <tr>
+    <td>k</td>
+    <td>ak</td>
+    <td>q</td>
+    <td>n</td>
+    <td>an</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>2</td>
+    <td>1</td>
+    <td>1</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>5</td>
+    <td>2</td>
+    <td>10</td>
+    <td>2560.00</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>100</td>
+    <td>10</td>
+    <td>20</td>
+    <td>100000000000000000000.00</td>
+  </tr>
+</table>
+
+#### (10)
+Uma P.G. (progressão geométrica) é determinada pela sua razão (q) e pelo primeiro termo (a1). Faça um programa em Pascal que seja capaz de determinar o enésimo termo (an) de uma P.G., dado a razão (q) e o primeiro termo (a1). Seu programa deve ler a1, q, n do teclado e imprimir an.
+
+<table>
+  <tr>
+   <td colspan="3"><b>Exemplo de Entrada</b></td>
+   <td><b>Saída Esperada</b></td>
+  </tr>
+  <tr>
+    <td>a1</td>
+    <td>q</td>
+    <td>n</td>
+    <td>an</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>1</td>
+    <td>100</td>
+    <td>1.00</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>2</td>
+    <td>10</td>
+    <td>1024.00</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>2</td>
+    <td>20</td>
+    <td>5242880.00</td>
+  </tr>
+</table>
+
+#### (11)
+Considere que o número de uma placa de veı́culo é composto por quatro algarismos. Faça um programa em Pascal que leia este número do teclado e apresente o algarismo correspondente à casa das unidades.
+
+|Exemplo de Entrada|Saída Esperada|
+|:----------------:|:------------:|
+|2569              |9             |
+|1000              |0             |
+|1305              |5             |
+
+#### (12)
+Considere que o número de uma placa de veı́culo é composto por quatro algarismos. Faça um programa em Pascal que leia este número do teclado e apresente o algarismo correspondente à casa das dezenas.
+
+|Exemplo de Entrada|Saída Esperada|
+|:----------------:|:------------:|
+|2569              |6             |
+|1000              |0             |
+|1350              |5             |
+
+#### (13)
+Considere que o número de uma placa de veı́culo é composto por quatro algarismos. Faça um programa em Pascal que leia este número do teclado e apresente o algarismo correspondente à casa das centenas.
+
+|Exemplo de Entrada|Saída Esperada|
+|:----------------:|:------------:|
+|2500              |5             |
+|2031              |0             |
+|6975              |9             |
+
+#### (14)
+Considere que o número de uma placa de veı́culo é composto por quatro algarismos. Faça um programa em Pascal que leia este número do teclado e apresente o algarismo correspondente à casa do milhar.
+
+|Exemplo de Entrada|Saída Esperada|
+|:----------------:|:------------:|
+|2569              |2             |
+|1000              |1             |
+|0350              |0             |
+
+#### (15)
+Você é um vendedor de carros é só aceita pagamentos à vista. As vezes é necessário ter que dar troco, mas seus clientes não gostam de notas miúdas. i Para agradá-los você deve fazer um programa em Pascal que receba o valor do troco que deve ser dado ao cliente e retorna o número de notas de R$100 necessárias para esse troco.
+
+|Exemplo de Entrada|Saída Esperada|
+|:----------------:|:------------:|
+|500               |5             |
+|360               |3             |
+|958               |9             |
+
+#### (16)
+Certo dia o professor de Johann Friederich Carl Gauss (aos 10 anos de idade) mandou que os alunos somassem os números de 1 a 100. Imediatamente Gauss achou a resposta – 5050 – aparentemente sem a soma de um em um. Supõe-se que já aı́, Gauss, houvesse descoberto a fórmula de uma soma de uma progressão aritmética. <br>
+Faça um programa em Pascal que realize a soma de uma P.A. de n termos, dado o primeiro termo a1 e o último termo an. A impressão do resultado deve ser formatada com duas casas na direita.
+
+<table>
+  <tr>
+   <td colspan="3"><b>Exemplo de Entrada</b></td>
+   <td><b>Saída Esperada</b></td>
+  </tr>
+  <tr>
+    <td>n</td>
+    <td>a1</td>
+    <td>an</td>
+    <td>soma</td>
+  </tr>
+  <tr>
+    <td>100</td>
+    <td>1</td>
+    <td>100</td>
+    <td>5050.00</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>1</td>
+    <td>10</td>
+    <td>55.00</td>
+  </tr>
+  <tr>
+    <td>50</td>
+    <td>30</td>
+    <td>100</td>
+    <td>3250.00</td>
+  </tr>
+</table>
+
+#### (17)
+A sequência A, B, C, . . . determina uma Progressão Aritmética (P.A.). O termo médio (B) de uma P.A. é determinado pela média aritmética de seus termos, sucessor (C) e antecessor (A). Com base neste enunciado construa um programa em Pascal que calcule e imprima o termo médio (B) através de A e C, que devem ser lidos do teclado.
+
+```
+B = (A + B)/ 2
+```
+
+<table>
+  <tr>
+   <td colspan="2"><b>Exemplo de Entrada</b></td>
+   <td><b>Saída Esperada</b></td>
+  </tr>
+  <tr>
+    <td>A</td>
+    <td>C</td>
+    <td>B</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>3</td>
+    <td>2.00</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>2</td>
+    <td>2.00</td>
+  </tr>
+  <tr>
+    <td>100</td>
+    <td>500</td>
+    <td>300.00</td>
+  </tr>
+</table>
+
+#### (18)
+A sequência A, B, C, . . . determina uma Progressão Geométrica (P.G.), o termo médio (B) de uma P.G. é determinado pela média geométrica de seus termos, sucessor (C) e antecessor (A). Com base neste enunciado escreva um programa em Pascal que calcule e imprima o termo médio (B) através de A, C, que devem ser lidos do teclado.
+
+<table>
+  <tr>
+   <td colspan="2"><b>Exemplo de Entrada</b></td>
+   <td><b>Saída Esperada</b></td>
+  </tr>
+  <tr>
+    <td>A</td>
+    <td>C</td>
+    <td>B</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>3</td>
+    <td>1.73</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>100</td>
+    <td>31.62</td>
+  </tr>
+  <tr>
+    <td>90</td>
+    <td>80</td>
+    <td>84.85</td>
+  </tr>
+</table>
+
+#### (19)
+O produto de uma série de termos de uma Progressão Geométrica (P.G.) pode ser calculado pela fórmula abaixo:
+```
+P = a1^n * q^((n*(n - 1))/2)
+```
+Agora, faça um programa em Pascal para determinar o produto dos n primeiros termos de uma P.G de razão q. Seu programa deverá ler a1, q, n do teclado e imprimir P. (ATENÇÃO PARA O TIPO DE VARIÁVEL!)
+
+<table>
+  <tr>
+   <td colspan="3"><b>Exemplo de Entrada</b></td>
+   <td><b>Saída Esperada</b></td>
+  </tr>
+  <tr>
+    <td>a1</td>
+    <td>q</td>
+    <td>n</td>
+    <td>P</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>1</td>
+    <td>10</td>
+    <td>9765625.00</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>1</td>
+    <td>10</td>
+    <td>1.00</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>2</td>
+    <td>5</td>
+    <td>32768.00</td>
+  </tr>
+</table>
+
+#### (20)
+A soma dos termos de uma Progressão Geométrica (P.G.) finita pode ser calculada pela fórmula abaixo:
+```
+Sn = (a1*(q^n - 1))/(q - 1)
+```
+Agora, faça um programa em Pascal para determinar a soma dos n termos de uma P.G de razão q, iniciando no termo a1. Seu programa deverá ler a1, q, n do teclado e imprimir Sn.
+
+<table>
+  <tr>
+   <td colspan="3"><b>Exemplo de Entrada</b></td>
+   <td><b>Saída Esperada</b></td>
+  </tr>
+  <tr>
+    <td>a1</td>
+    <td>q</td>
+    <td>n</td>
+    <td>Sn</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>3</td>
+    <td>6</td>
+    <td>728.00</td>
+  </tr>
+  <tr>
+    <td>0</td>
+    <td>5</td>
+    <td>10</td>
+    <td>0.00</td>
+  </tr>
+  <tr>
+    <td>150</td>
+    <td>30</td>
+    <td>2</td>
+    <td>4650.00</td>
+  </tr>
+</table>
+
+#### (21)
+#### (22)
+#### (23)
+#### (24)
+#### (25)
+#### (26)
+#### (27)
+#### (28)
+#### (29)
+#### (30)
+#### (31)
+
 #### Desvios Condicionais
 
 #### (1)
@@ -408,3 +830,51 @@ A prefeitura de Contagem abriu uma linha de crédito para os funcionários estat
 |500<br>200        |nao           |
 |1000.50<br>250.10 |sim           |
 |1000<br>300       |sim           |
+
+#### (13)
+Faça um programa em Pascal que dado quatro valores, A, B, C e D, o programa imprima o menor e o maior valor.
+
+|Exemplo de Entrada      |Saída Esperada|
+|:----------------------:|:------------:|
+|1<br>2<br>3<br>4        |1.00 4.00     |
+|-3<br>0<br>1<br>1       |-3.00 1.00    |
+|3.5<br>3.7<br>4.0<br>5.5|3.50 3.50     |
+
+#### (14)
+Dados três valores A, B e C, faça um programa em Pascal, que imprima os valores de forma ascendente (do menor para o maior).
+
+|Exemplo de Entrada|Saída Esperada   |
+|:----------------:|:---------------:|
+|1 2 1.5           |1.00 1.50 2.00   |
+|-3 -4 -5          |-5.00 -4.00 -3.00|
+|6 5 4             |4.00 5.00 6.00   |
+
+#### (15)
+Dados três valores A, B e C, faça um programa em Pascal, que imprima os valores de forma descendente (do maior para o menor).
+
+|Exemplo de Entrada|Saída Esperada   |
+|:----------------:|:---------------:|
+|1 2 1.5           |2.00 1.50 1.00   |
+|-5 -4 -3          |-3.00 -4.00 -5.00|
+|5 6 4             |6.00 5.00 4.00   |
+
+#### (16)
+Faça um programa em Pascal que leia dois números e imprimir o quadrado do menor número e raiz quadrada do maior número, se for possı́vel.
+
+|Exemplo de Entrada|Saída Esperada|
+|:----------------:|:------------:|
+|4<br>3            |9.00 2.00     |
+|4.35<br>3.50      |12.25 2.09    |
+|-4<br>-16         |256.00        |
+
+#### (17)
+#### (18)
+#### (19)
+#### (20)
+#### (21)
+#### (22)
+#### (23)
+#### (24)
+#### (25)
+#### (26)
+
