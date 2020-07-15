@@ -1,4 +1,9 @@
-## Capítulo 5 - Exercícios
+## Capítulo 5
+
+[Exercícios Complementares](#Exercícios-Complementares)
+
+
+### Exercícios
 
 #### (1)
 Considere o seguinte programa incompleto em Pascal:
@@ -159,7 +164,7 @@ Faça um programa que leia três números x, y, z do teclado e decida se x <= y 
 |4 12 5            |nao esta no intervalo |
 
 #### (15)
-Faça um programa que leia três números x, y,z do teclado e decida se x > y ou se y < z. Seu programa deve imprimir a mensagem 'sim' em caso afirmativo e 'nao' caso contrario. Exemplo:
+Faça um programa que leia três números x, y, z do teclado e decida se x > y ou se y < z. Seu programa deve imprimir a mensagem 'sim' em caso afirmativo e 'nao' caso contrario. Exemplo:
 
 |Exemplo de Entrada|Saida Esperada|
 |:----------------:|:------------:|
@@ -180,12 +185,40 @@ Seu programa deve imprimir a mensagem 'divisão por zero' caso o denominador sej
 |0 0 0 0 0 0         |divisao por zero|
 |1 1 2 2 1 3         |divisao por zero|
 
-#### (17)
+#### (17) 
+Faça um programa que leia uma massa de dados onde cada linha da entrada contém um número. Para cada número lido, calcule o seu sucessor par, imprimindo-os dois a dois em listagem de saída. A última linha de dados contém o número zero, o qual não deve ser processado e serve apenas para indicar o final da leitura dos dados.
+
+|Exemplo de Entrada|Saída Esperada                    |
+|:----------------:|:--------------------------------:|
+|12 6 26 86 0      |12 14<br>6 8<br>26 28<br>86 88    |
+|-2 -5 -1 0        |-2 0<br>-5 -3<br>-1 1             |
+|1 2 3 4 5 0       |1 3<br>2 4<br>3 5<br>4 6<br>5 7   |
+
 #### (18)
+Faça um programa que leia uma massa de dados contendo a definição de várias equações do segundo grau da forma Ax² + Bx + C = 0. Cada linha de dados contém a definição de uma equação por meio dos valores de A, B e C do conjunto dos números reais. A última linha informada ao sistema contém 3 (três) valores zero (exemplo 0.0 0.0 0.0). Após a leitura de cada linha o programa deve tentar calcular as duas raı́zes da equação. A listagem de saı́da, em cada linha, deverá conter os valores das duas raı́zes reais. Considere que o usuário entrará somente com valores A, B e C tais que a equação garantidamente tenha duas raı́zes reais.
+
+|Exemplo de Entrada|Saída Esperada|
+|:----------------:|:------------:|
+|1.00 -1.00 -6.00  |3.00 -2.00    |
+|1.00 0.00 -1.00   |-1.00 1.00    |
+|1.00 0.00 0.00    |0.00 0.00     |
+|0.00 0.00 0.00    |              |
+
 #### (19)
+Faça um programa em Pascal que leia dois números inteiros N e M como entrada e retorne como saı́da N mod M (o resto da divisão inteira de N por M ) usando para isto apenas operações de subtração. O seu programa deve considerar que o usuário entra com N sempre maior do que M.
+
+|Exemplo de Entrada|Saída Esperada|
+|:----------------:|:------------:|
+|30 7              |2             |
+|3 2               |1             |
+|12 3              |0             |
+
 #### (20)
+Faça um programa em Pascal que leia um número n > 0 do teclado e imprima a tabuada de n de 1 até 10.
 
+|Exemplo de Entrada|Saída Esperada|
+|:----------------:|:------------:|
+|5                 |5 x 1 = 5<br>5 x 2 = 10<br>5 x 3 = 15<br>5 x 4 = 20<br>5 x 5 = 25<br>5 x 6 = 30<br>5 x 7 = 35<br>5 x 8 = 40<br>5 x 9 = 45<br>5 x 10 = 50|
 
-
-
+### Exercícios Complementares
 
