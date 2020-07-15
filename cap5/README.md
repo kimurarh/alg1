@@ -223,5 +223,188 @@ Faça um programa em Pascal que leia um número n > 0 do teclado e imprima a tab
 |:----------------:|:------------:|
 |5                 |5 x 1 = 5<br>5 x 2 = 10<br>5 x 3 = 15<br>5 x 4 = 20<br>5 x 5 = 25<br>5 x 6 = 30<br>5 x 7 = 35<br>5 x 8 = 40<br>5 x 9 = 45<br>5 x 10 = 50|
 
+---
+
 ### Exercícios Complementares
 
+* [Cálculos Simples](#Cálculos-Simples)<br>
+* [Desvios Condicionais](#Desvios-Condicionais)
+
+#### Cálculos Simples
+
+#### (1)
+Faça um programa que leia um número inteiro e imprima o seu sucessor e seu antecessor, na mesma linha.
+
+|Exemplo de Entrada|Saída Esperada|
+|:----------------:|:------------:|
+|1                 |2 0           |
+|100               |101 99        |
+|-3                |-2 -4         |
+
+#### (2)
+Faça um programa que leia dois números inteiros e imprima o resultado da soma deste dois valores. Antes do resultado, deve ser impressa a seguinte mensagem "SOMA = ".
+
+|Exemplo de Entrada|Saída Esperada|
+|:----------------:|:------------:|
+|1 2               | SOMA = 3     |
+|100 -50           | SOMA = 50    |
+|-5 -40            | SOMA = -45   |
+
+#### (3)
+Faça um programa em Pascal que leia dois números reais, um será o valor de um produto e outro o valor de desconto que esse produto está recebendo. Imprima quantos reais o produto custa na promoção.
+
+<table>
+  <tr>
+   <td colspan="2"><b>Exemplo de Entrada</b></td>
+   <td><b>Saída Esperada</b></td>
+  </tr>
+  <tr>
+    <td>Valor Original</td>
+    <td>Desconto</td>
+   <td>Valor na Promoção</td>
+  </tr>
+  <tr>
+    <td>500.00</td>
+    <td>50.00</td>
+    <td>450.00</td>
+  </tr>
+  <tr>
+    <td>10500.00</td>
+    <td>500.00</td>
+    <td>10000.00</td>
+  </tr>
+  <tr>
+    <td>90.00</td>
+    <td>0.80</td>
+    <td>89.20</td>
+  </tr>
+</table>
+
+#### (4)
+Faça um programa que leia dois números reais e imprima a média aritmética entre esses dois valores.
+
+|Exemplo de Entrada|Saída Esperada|
+|:----------------:|:------------:|
+|1.2 2.3           |1.75          |
+|750 1500          |1125.00       |
+|8900 12300        |10600.00      |
+
+#### (5)
+Faça um programa que leia um número real e imprima a terça parte deste número.
+
+|Exemplo de Entrada|Saída Esperada|
+|:----------------:|:------------:|
+|3                 |1.00          |
+|10                |3.33          |
+|90                |30.00         |
+
+#### Desvios Condicionais
+
+#### (1)
+Faça um programa que leia um número e o imprima caso ele seja maior que 20.
+
+|Exemplo de Entrada|Saída Esperada|
+|:----------------:|:------------:|
+|30.56             |30.56         |
+|20                |              |
+|20.05             |20.05         |
+
+#### (2)
+Faça um programa em Pascal que leia dois valores numéricos inteiros e efetue a adição; se o resultado for maior que 10, imprima o primeiro valor. Caso contrário, imprima o segundo.
+
+|Exemplo de Entrada|Saída Esperada|
+|:----------------:|:------------:|
+|7<br>4            |7             |
+|7<br>2            |2             |
+|3<br>7            |7             |
+
+#### (3)
+Faça um programa em Pascal que imprima se um dado número N inteiro (recebido através do teclado) é PAR ou ÍMPAR.
+
+|Exemplo de Entrada|Saída Esperada|
+|:----------------:|:------------:|
+|5                 |IMPAR         |
+|3                 |IMPAR         |
+|2                 |PAR           |
+
+#### (4)
+Faça um programa em Pascal para determinar se um dado número N (recebido através do teclado) é POSITIVO, NEGATIVO ou NULO.
+
+|Exemplo de Entrada|Saída Esperada|
+|:----------------:|:------------:|
+|5                 |POSITIVO      |
+|-3                |NEGATIVO      |
+|0                 |NULO          |
+
+#### (5)
+Faça um programa em Pascal que leia dois números e efetue a adição. Caso o valor somado seja maior que 20, este deverá ser apresentado somando-se a ele mais 8; caso o valor somado seja menor ou igual a 20, este deverá ser apresentado subtraindo-se 5.
+
+|Exemplo de Entrada|Saída Esperada|
+|:----------------:|:------------:|
+|13.14<br>5        |13.14         |
+|-3<br>-4          |-12.00        |
+|16<br>5           |29.00         |
+
+#### (6)
+Faça um programa em Pascal que imprima qual o menor valor de dois números A e B, lidos através do teclado.
+
+|Exemplo de Entrada|Saída Esperada|
+|:----------------:|:------------:|
+|5.35<br>4         |4.00          |
+|-3<br>1           |-3.00         |
+|6<br>15           |6.00          |
+
+#### (7)
+Faça um programa em Pascal para determinar se um número inteiro A é divisı́vel por um outro número inteiro B. Esses valores devem ser fornecidos pelo usuário.
+
+|Exemplo de Entrada|Saída Esperada|
+|:----------------:|:------------:|
+|5<br>10           |nao           |
+|4<br>2            |sim           |
+|7<br>21           |nao           |
+
+#### (8)
+Faça um programa em Pascal que leia um número inteiro e informe se ele é ou não divisı́vel por 5.
+
+|Exemplo de Entrada|Saída Esperada|
+|:----------------:|:------------:|
+|5                 |sim           |
+|-5                |sim           |
+|3                 |nao           |
+
+#### (9)
+Faça um programa em Pascal que leia um número inteiro e imprima se este é multiplo de 3.
+
+|Exemplo de Entrada|Saída Esperada|
+|:----------------:|:------------:|
+|5                 |nao           |
+|-3                |sim           |
+|15                |sim           |
+
+#### (10)
+Faça um programa em Pascal que leia um número e imprima a raiz quadrada do número caso ele seja positivo ou igual a zero e o quadrado do número caso ele seja negativo.
+
+|Exemplo de Entrada|Saída Esperada|
+|:----------------:|:------------:|
+|0                 |0.00          |
+|4                 |2.00          |
+|-5                |25.00         |
+
+#### (11)
+Faça um programa em Pascal que leia um número e informe se ele é divisı́vel por 3 e por 7
+
+|Exemplo de Entrada|Saída Esperada|
+|:----------------:|:------------:|
+|21                |sim           |
+|7                 |nao           |
+|3                 |nao           |
+|-42               |sim           |
+
+#### (12)
+A prefeitura de Contagem abriu uma linha de crédito para os funcionários estatutários. O valor máximo da prestação não poderá ultrapassar 30% do salário bruto. Faça um programa em Pascal que permita entrar com o salário bruto e o valor da prestação, e informar se o empréstimo pode ou não ser concedido.
+
+|Exemplo de Entrada|Saída Esperada|
+|:----------------:|:------------:|
+|500<br>200        |nao           |
+|1000.50<br>250.10 |sim           |
+|1000<br>300       |sim           |
