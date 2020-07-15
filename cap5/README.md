@@ -1,5 +1,8 @@
 ## Capítulo 5
 
+Aqui estão dispostos os enunciados referentes aos exercícios do Capítulo 5<br>
+As resoluções elaboradas estão nas pastas :open_file_folder:<b>exerc</b> e :open_file_folder:<b>exerc_comp</b>
+
 * [Exercícios](#Exercícios)<br>
 * [Exercícios Complementares](#Exercícios-Complementares)
 
