@@ -5,7 +5,7 @@ Compilador utilizado: [Free Pascal](https://www.freepascal.org/)
 
 ## Informações Básicas 
 
-Estrutura de um programa em Pascal
+- Estrutura de um programa em Pascal:
 ```pascal
 program exemplo;
 var variavel_exemplo;
@@ -17,12 +17,12 @@ begin
 end.
 ```
 
-Como compilar:
+- Como compilar:
 ```
   fpc exemplo.pas
 ```
 
-Como Executar:
+- Como Executar:
 ```
   ./exemplo
 ```
