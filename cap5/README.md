@@ -42,7 +42,7 @@ Exemplo:
 #### (3)
 Faça um programa que implemente as seguintes expressões aritméticas usando o mínimo possível de parênteses.
 
-(a) W^2 / (A*x^2 + B*x + C)
+(a) W^2 / (A*x^2 + B*x + C)<br>
 (b) ((P1 + P2)/(Y - Z)*R) / (W/A*B + R)
 
 #### (4)
@@ -88,18 +88,18 @@ Indique qual o resultado das expressões abaixo, sendo:
 ```
 a = 6; b= 9.5; d = 14; p = 4; q = 5; r = 10; z = 6.0; sim = TRUE.
 ```
-(a) sim AND (q \ge p)			
-(b) (0 \le b) AND (z > a) OR (a = b)		
-(c) (0 \le b) AND ((z > a) OR (a = b))		
-(d) (0 \le b) OR ((z > a) AND (a = b))		
+(a) sim AND (q \ge p)<br>
+(b) (0 \le b) AND (z > a) OR (a = b)<br>	
+(c) (0 \le b) AND ((z > a) OR (a = b))<br>	
+(d) (0 \le b) OR ((z > a) AND (a = b))	
 
 #### (9)
 Indique qual o resultado das expressões baixo, sendo:
 ```
 a = 5; b = 3; d = 7; p = 4; q = 5; r = 2; x = 8; y = 4; z = 6; sim = TRUE.
 ```
-(a) NOT sim AND (z DIV b + 1 = r)	
-(b) (x + y > z) AND sim OR (d \ge b)		
+(a) NOT sim AND (z DIV b + 1 = r)<br>
+(b) (x + y > z) AND sim OR (d \ge b)<br>	
 (c) (x + y <> z) AND (sim OR (d \ge b))	
 
 #### (10)
@@ -107,8 +107,8 @@ Indique qual o resultado das expressões baixo, sendo:
 ```
 a = 5; b = 3; d = 7; p = 4; q = 5; r = 2; x = 8; y = 4; z = 6; sim = TRUE;
 ```
-(a) (z DIV a + b * a) - d DIV 2		
-(b) p / r MOD q - q / 2				
+(a) (z DIV a + b * a) - d DIV 2	<br>
+(b) p / r MOD q - q / 2 <br>	
 (c) (z DIV y + 1 = x) AND sim OR (y >= x)
 
 #### (11)
