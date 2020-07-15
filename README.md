@@ -1,7 +1,25 @@
 # Algoritmos e Estruturas de Dados I
 Repositório com os programas escritos em Pascal durante o estudo da disciplina de Algoritmos e Estruturas de Dados I.
 
+Site da disciplina: [CI1055 - Algoritmos e Estruturas de Dados](http://www.inf.ufpr.br/cursos/ci055/)
+
 Compilador utilizado: [Free Pascal](https://www.freepascal.org/)
+
+
+
+## Sumário
+
+* [Capítulo 5 - Conceitos Elementares](https://github.com/kimurarh/alg1/tree/master/cap5)
+  * [Exercícios](https://github.com/kimurarh/alg1/tree/master/cap5/exerc)
+  * [Exercícios Complementares](https://github.com/kimurarh/alg1/tree/master/cap5/exerc_comp)
+    * [Cálculos Simples](https://github.com/kimurarh/alg1/tree/master/cap5/exerc_comp/calc_simples)
+    * [Desvio Condicional](https://github.com/kimurarh/alg1/tree/master/cap5/exerc_comp/desvio_cond)
+* [Capítulo 6 - Técnicas Elementares]()
+  * [Exercícios]()
+* [Capítulo 7 - Aplicações das Técnicas Elementares]()
+  * [Exercícios]()
+  
+  
 
 ## Informações Básicas 
 
