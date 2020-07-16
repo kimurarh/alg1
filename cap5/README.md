@@ -332,7 +332,7 @@ an = a1 + (n - 1) * r
     <td>5</td>
     <td>-2</td>
     <td>0</td>
-    <td>-98</td>
+    <td>-8</td>
   </tr>
 </table>
 
@@ -340,7 +340,7 @@ an = a1 + (n - 1) * r
 Dada a razão (r) de uma P.A. (progressão aritmética) e um termo qualquer, k (ak). Faça um programa em Pascal que calcule o enésimo termo n (an). Seu programa deve ler k, ak, r, n do teclado e imprimir an.
 
 ```
-an = ak + (n - r) * r
+an = ak + (n - k) * r
 ```
 
 <table>
