@@ -709,11 +709,177 @@ Agora, faça um programa em Pascal para determinar a soma dos n termos de uma P.
 </table>
 
 #### (21)
+Faça um programa em Pascal para calcular e imprimir o valor do volume de uma lata de óleo, utilizando a fórmula:
+```
+V = 3.14159 × r^2 × h
+```
+onde V é o volume, r é o raio e h é a altura. Seu programa deve ler r, h do teclado e imprimir V .
+
+<table>
+  <tr>
+   <td colspan="2"><b>Exemplo de Entrada</b></td>
+   <td><b>Saída Esperada</b></td>
+  </tr>
+  <tr>
+    <td>r</td>
+    <td>h</td>
+    <td>V</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>100</td>
+    <td>7853.98</td>
+  </tr>
+  <tr>
+    <td>25</td>
+    <td>25.5</td>
+    <td>69704.03</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>50.9</td>
+    <td>15990.69</td>
+  </tr>
+</table>
+
 #### (22)
+Faça um programa em Pascal que efetue o cálculo do salário lı́quido de um professor. Os dados fornecidos serão: valor da hora aula, número de aulas dadas no mês e percentual de desconto do INSS.
+
+<table>
+  <tr>
+   <td colspan="3"><b>Exemplo de Entrada</b></td>
+   <td><b>Saída Esperada</b></td>
+  </tr>
+  <tr>
+    <td>Valor hora aula</td>
+    <td>Número de aulas</td>
+    <td>Percentual INSS</td>
+    <td>Salário Bruto</td>
+  </tr>
+  <tr>
+    <td>6.25</td>
+    <td>160</td>
+    <td>1.3</td>
+    <td>987.00</td>
+  </tr>
+  <tr>
+    <td>20.5</td>
+    <td>240</td>
+    <td>1.7</td>
+    <td>4836.36</td>
+  </tr>
+  <tr>
+    <td>13.9</td>
+    <td>200</td>
+    <td>6.48</td>
+    <td>2599.86</td>
+  </tr>
+</table>
+
 #### (23)
+Em épocas de pouco dinheiro, os comerciantes estão procurando aumentar suas vendas oferecendo desconto aos clientes. Faça um programa em Pascal que possa entrar com o valor de um produto e imprima o novo valor tendo em vista que o desconto foi de 9%. Além disso, imprima o valor do desconto.
+
+<table>
+  <tr>
+   <td colspan="2"><b>Exemplo de Entrada</b></td>
+   <td><b>Saída Esperada</b></td>
+  </tr>
+  <tr>
+    <td>Valor do produto (R$)</td>
+    <td>Novo valor (R$)</td>
+    <td>Valor do desconto (R$)</td>
+  </tr>
+  <tr>
+    <td>100</td>
+    <td>91.00</td>
+    <td>9.00</td>
+  </tr>
+  <tr>
+    <td>1500</td>
+    <td>1365.00</td>
+    <td>135.00</td>
+  </tr>
+  <tr>
+    <td>60000</td>
+    <td>54600.00</td>
+    <td>5400.00</td>
+  </tr>
+</table>
+
 #### (24)
+Todo restaurante, embora por lei não possa obrigar o cliente a pagar, cobra 10% de comissão para o garçom. Faça um programa em Pascal que leia o valor gasto com despesas realizadas em um restaurante e imprima o i valor da gorjeta e o valor total com a gorjeta.
+
+|Exemplo de Entrada|Saída Esperada|
+|:----------------:|:------------:|
+|75                |82.50         |
+|125               |137.50        |
+|350.87            |385.96        |
+
 #### (25)
+Faça um programa em Pascal que leia um valor de hora (hora:minutos), calcule e imprima o total de minutos se passaram desde o inı́cio do dia (0:00h). A entrada será dada por dois números separados na mesma linha, o primeiro número representa as horas e o segundo os minutos.
+
+<table>
+  <tr>
+   <td colspan="2"><b>Exemplo de Entrada</b></td>
+   <td><b>Saída Esperada</b></td>
+  </tr>
+  <tr>
+    <td>Hora</td>
+    <td>Minuto</td>
+    <td>Total de minutos</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>0</td>
+    <td>60</td>
+  </tr>
+  <tr>
+    <td>14</td>
+    <td>30</td>
+    <td>870</td>
+  </tr>
+  <tr>
+    <td>23</td>
+    <td>55</td>
+    <td>1435</td>
+  </tr>
+</table>
+
 #### (26)
+Faça um programa em Pascal que leia o valor de um depósito e o valor da taxa de juros. Calcular e imprimir o valor do rendimento do depósito e o valor total depois do rendimento.
+
+
+<table>
+  <tr>
+   <td colspan="2"><b>Exemplo de Entrada</b></td>
+   <td colspan="2"><b>Saída Esperada</b></td>
+  </tr>
+  <tr>
+    <td>Depósito</td>
+    <td>Taxa de juros</td>
+    <td>Rendimento</td>
+    <td>Total</td>
+  </tr>
+  <tr>
+    <td>200</td>
+    <td>0.5</td>
+    <td>1.00</td>
+    <td>201.00</td>
+  </tr>
+  <tr>
+    <td>1050</td>
+    <td>1</td>
+    <td>10.5</td>
+    <td>1060.5</td>
+  </tr>
+  <tr>
+    <td>2300.38</td>
+    <td>0.06</td>
+    <td>1.38</td>
+    <td>2301.38</td>
+  </tr>
+</table>
+
 #### (27)
 #### (28)
 #### (29)
