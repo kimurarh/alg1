@@ -572,7 +572,7 @@ Faça um programa em Pascal que realize a soma de uma P.A. de n termos, dado o p
 A sequência A, B, C, . . . determina uma Progressão Aritmética (P.A.). O termo médio (B) de uma P.A. é determinado pela média aritmética de seus termos, sucessor (C) e antecessor (A). Com base neste enunciado construa um programa em Pascal que calcule e imprima o termo médio (B) através de A e C, que devem ser lidos do teclado.
 
 ```
-B = (A + B)/ 2
+B = (A + C)/ 2
 ```
 
 <table>
