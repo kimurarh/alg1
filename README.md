@@ -18,7 +18,8 @@ Compilador utilizado: [Free Pascal](https://www.freepascal.org/)
   * [Exercícios]()
 * [Capítulo 7 - Aplicações das Técnicas Elementares]()
   * [Exercícios]()
-  
+* [Farma Alg](https://github.com/kimurarh/alg1/tree/master/farma-alg)
+ * [Lista 1]()
   
 
 ## Informações Básicas 
