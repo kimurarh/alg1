@@ -1,5 +1,5 @@
 (*
-EXERCÍCIO COMPLEMENTAR 19 - CÁLCULOS SIMPLES
+EXERCÍCIO COMPLEMENTAR 20 - CÁLCULOS SIMPLES
 
 A soma dos termos de uma Progressão Geométrica (P.G.) finita pode ser calculada pela fórmula abaixo:
 ```

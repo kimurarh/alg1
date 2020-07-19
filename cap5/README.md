@@ -733,12 +733,12 @@ onde V é o volume, r é o raio e h é a altura. Seu programa deve ler r, h do t
   <tr>
     <td>25</td>
     <td>25.5</td>
-    <td>69704.03</td>
+    <td>50069.13</td>
   </tr>
   <tr>
     <td>10</td>
     <td>50.9</td>
-    <td>15990.69</td>
+    <td>15990.71</td>
   </tr>
 </table>
 
@@ -781,8 +781,8 @@ Em épocas de pouco dinheiro, os comerciantes estão procurando aumentar suas ve
 
 <table>
   <tr>
-   <td colspan="2"><b>Exemplo de Entrada</b></td>
-   <td><b>Saída Esperada</b></td>
+   <td><b>Exemplo de Entrada</b></td>
+   <td colspan="2"><b>Saída Esperada</b></td>
   </tr>
   <tr>
     <td>Valor do produto (R$)</td>
@@ -809,11 +809,32 @@ Em épocas de pouco dinheiro, os comerciantes estão procurando aumentar suas ve
 #### (24)
 Todo restaurante, embora por lei não possa obrigar o cliente a pagar, cobra 10% de comissão para o garçom. Faça um programa em Pascal que leia o valor gasto com despesas realizadas em um restaurante e imprima o i valor da gorjeta e o valor total com a gorjeta.
 
-|Exemplo de Entrada|Saída Esperada|
-|:----------------:|:------------:|
-|75                |82.50         |
-|125               |137.50        |
-|350.87            |385.96        |
+<table>
+  <tr>
+   <td><b>Exemplo de Entrada</b></td>
+   <td colspan="2"><b>Saída Esperada</b></td>
+  </tr>
+  <tr>
+    <td>Valor gasto (R$)</td>
+    <td>Gorjeta (R$)</td>
+    <td>Valor total (R$)</td>
+  </tr>
+  <tr>
+    <td>75</td>
+    <td>7.50</td>
+    <td>82.50</td>
+  </tr>
+  <tr>
+    <td>125</td>
+    <td>12.50</td>
+    <td>137.50</td>
+  </tr>
+  <tr>
+    <td>350.87</td>
+    <td>35.09</td>
+    <td>385.96</td>
+  </tr>
+</table>
 
 #### (25)
 Faça um programa em Pascal que leia um valor de hora (hora:minutos), calcule e imprima o total de minutos se passaram desde o inı́cio do dia (0:00h). A entrada será dada por dois números separados na mesma linha, o primeiro número representa as horas e o segundo os minutos.
@@ -876,15 +897,176 @@ Faça um programa em Pascal que leia o valor de um depósito e o valor da taxa d
     <td>2300.38</td>
     <td>0.06</td>
     <td>1.38</td>
-    <td>2301.38</td>
+    <td>2301.76</td>
   </tr>
 </table>
 
 #### (27)
+Para vários tributos, a base de cálculo é o salário mı́nimo. Faça um programa em Pascal que leia o valor do salário mı́nimo e o valor do salário de uma pessoa. Calcular e imprimir quantos salários mı́nimos essa pessoa ganha.
+
+<table>
+  <tr>
+   <td colspan="2"><b>Exemplo de Entrada</b></td>
+   <td><b>Saída Esperada</b></td>
+  </tr>
+  <tr>
+    <td>Salário Mínimo</td>
+    <td>Salário</td>
+    <td>Salário em Salários Mínimos</td>
+  </tr>
+  <tr>
+    <td>450.89</td>
+    <td>2700.00</td>
+    <td>5.99</td>
+  </tr>
+  <tr>
+    <td>1000.00</td>
+    <td>1000.00</td>
+    <td>1.00</td>
+  </tr>
+  <tr>
+    <td>897.50</td>
+    <td>7800.00</td>
+    <td>8.69</td>
+  </tr>
+</table>
+
 #### (28)
+Faça um programa em Pascal que efetue o cálculo da quantidade de litros de combustı́vel gastos em uma viagem, sabendo-se que o carro faz 12 km com um litro. Deverão ser fornecidos o tempo gasto na viagem e a velocidade média.
+```
+Distancia = Tempo × Velocidade. 
+Litros = Distancia/12. 
+```
+O algoritmo deverá apresentar os valores da Distância percorrida e a quantidade de Litros utilizados na viagem.
+
+<table>
+  <tr>
+   <td colspan="2"><b>Exemplo de Entrada</b></td>
+   <td colspan="2"><b>Saída Esperada</b></td>
+  </tr>
+  <tr>
+    <td>Tempo gasto</td>
+    <td>Velocidade média</td>
+    <td>Distância percorrida</td>
+    <td>Litros</td>
+  </tr>
+  <tr>
+    <td>60</td>
+    <td>100</td>
+    <td>6000.00</td>
+    <td>500.00</td>
+  </tr>
+  <tr>
+    <td>1440</td>
+    <td>80</td>
+    <td>115200.00</td>
+    <td>9600.00</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>90</td>
+    <td>450.00</td>
+    <td>37.50</td>
+  </tr>
+</table>
+
 #### (29)
+Um vendedor de uma loja de sapatos recebe como pagamento 20% de comissão sobre as vendas do mês e R$5.00 por cada par de sapatos vendidos. Faça um programa em Pascal que, dado o total de vendas do mês e o número de sapatos vendidos, imprima quanto será o salário daquele mês do vendedor.
+
+<table>
+  <tr>
+   <td colspan="2"><b>Exemplo de Entrada</b></td>
+   <td><b>Saída Esperada</b></td>
+  </tr>
+  <tr>
+    <td>Total de vendas</td>
+    <td>Sapatos vendidos</td>
+    <td>Salário</td>
+  </tr>
+  <tr>
+    <td>50000.00</td>
+    <td>100</td>
+    <td>10500.00</td>
+  </tr>
+  <tr>
+    <td>2000.00</td>
+    <td>30</td>
+    <td>550.00</td>
+  </tr>
+  <tr>
+    <td>1000000.00</td>
+    <td>500</td>
+    <td>202500.00</td>
+  </tr>
+</table>
+
 #### (30)
+Você está endividado e quer administrar melhor sua vida financeira. Para isso, faça um programa em Pascal que recebe o valor de uma dı́vida e o juros mensal, então calcule e imprima o valor da dı́vida no mês seguinte.
+
+<table>
+  <tr>
+   <td colspan="2"><b>Exemplo de Entrada</b></td>
+   <td><b>Saída Esperada</b></td>
+  </tr>
+  <tr>
+    <td>Valor da dívida</td>
+    <td>Juros/mês</td>
+    <td>Dívida</td>
+  </tr>
+  <tr>
+    <td>100.00</td>
+    <td>10</td>
+    <td>110.00</td>
+  </tr>
+  <tr>
+    <td>1500.00</td>
+    <td>3</td>
+    <td>1545.00</td>
+  </tr>
+  <tr>
+    <td>10000.00</td>
+    <td>0.5</td>
+    <td>10050.00</td>
+  </tr>
+</table>
+
 #### (31)
+Antes de o racionamento de energia ser decretado, quase ninguém falava em quilowatts; mas, agora, todos incorporaram essa palavra em seu vocabulário.<br>
+Sabendo-se que 100 quilowatts de energia custa um sétimo do salário mı́nimo, faça um programa em Pascal que receba o valor do salário mı́nimo e a quantidade de quilowatts gasta por uma residência e imprima:
+
+- o valor em reais de cada quilowatt;
+- o valor em reais a ser pago;
+
+<table>
+  <tr>
+   <td colspan="2"><b>Exemplo de Entrada</b></td>
+   <td colspan="2"><b>Saída Esperada</b></td>
+  </tr>
+  <tr>
+    <td>Salário mínimo</td>
+    <td>Quilowatts</td>
+    <td>Valor do quilowatt</td>
+    <td>Valor pago</td>
+  </tr>
+  <tr>
+    <td>750.00</td>
+    <td>200</td>
+    <td>1.07</td>
+    <td>214.29</td>
+  </tr>
+  <tr>
+    <td>935.00</td>
+    <td>150</td>
+    <td>1.34</td>
+    <td>200.36</td>
+  </tr>
+  <tr>
+    <td>1200.00</td>
+    <td>250</td>
+    <td>1.71</td>
+    <td>428.57</td>
+  </tr>
+</table>
 
 #### Desvios Condicionais
 
@@ -1034,13 +1216,132 @@ Faça um programa em Pascal que leia dois números e imprimir o quadrado do meno
 |-4<br>-16         |256.00        |
 
 #### (17)
-#### (18)
-#### (19)
-#### (20)
-#### (21)
-#### (22)
-#### (23)
-#### (24)
-#### (25)
-#### (26)
+Faça um programa em Pascal que indique se um número digitado está compreendido entre 20 e 90 ou não (20 e 90 não estão na faixa de valores).
 
+|Exemplo de Entrada|Saída Esperada|
+|:----------------:|:------------:|
+|50.50             |sim           |
+|20                |nao           |
+|90                |nao           |
+
+#### (18)
+Faça um programa em Pascal que leia um número inteiro e informe se ele é divisı́vel por 10, por 5 ou por 2 ou se não é divisı́vel por nenhum deles.
+
+|Exemplo de Entrada|Saída Esperada|
+|:----------------:|:------------:|
+|10                |10 5 2        |
+|5                 |5             |
+|4                 |2             |
+|7                 |nenhum        |
+
+#### (19)
+Faça um programa em Pascal que leia um número e imprima se ele é igual a 5, a 200, a 400, se está no intervalo entre 500 e 1000, inclusive, ou se está fora dos escopos anteriores.
+
+|Exemplo de Entrada|Saída Esperada            |
+|:----------------:|:------------------------:|
+|5                 |igual a 5                 |
+|200               |igual a 200               |
+|400               |igual a 400               |
+|750.50            |intervalo entre 500 e 1000|
+|1000              |intervalo entre 500 e 1000|
+|1500              |fora dos escopos          |
+
+#### (20)
+A CEF concederá um crédito especial com juros de 2% aos seus clientes de acordo com o saldo médio no último ano. Faça um programa em Pascal que leia o saldo médio de um cliente e calcule o valor do crédito de acordo com a tabela a seguir. Imprimir uma mensagem informando o valor de crédito.
+
+|De 0 a 500    |Nenhum credito             |
+|De 501 a 1000 |30% do valor do saldo medio|
+|De 1001 a 3000|40% do valor do saldo medio|
+|Acima de 3001 |50% do valor do saldo medio|
+
+|Exemplo de Entrada|Saída Esperada|
+|:----------------:|:------------:|
+|300.50            |0.00          |
+|571               |171.30        |
+|1492.35           |596.94        |
+|3001.20           |1500.60       |
+
+#### (21)
+Faça um programa em Pascal que, dada a idade de uma pessoa, determine sua classificação segundo a seguinte tabela:
+
+- Maior de idade;
+- Menor de idade;
+- Pessoa idosa (idade superior ou igual a 65 anos).
+
+|Exemplo de Entrada|Saída Esperada|
+|:----------------:|:------------:|
+|18                |maior         |
+|15                |menor         |
+|65                |idosa         |
+
+#### (22)
+Faça um programa em Pascal que leia a idade de uma pessoa e informe a sua classe eleitoral:
+
+- não eleitor (abaixo de 16 anos);
+- eleitor obrigatório (entre a faixa de 18 e menor de 65 anos);
+- eleitor facultativo (de 16 até 18 anos e maior de 65 anos, inclusive).
+
+|Exemplo de Entrada|Saída Esperada|
+|:----------------:|:------------:|
+|15                |nao eleitor   |
+|16                |facultativo   |
+|17                |facultativo   |
+|18                |obrigatorio   |
+|19                |obrigatorio   |
+
+#### (23)
+A confederação brasileira de natação irá promover eliminatórias para o próximo mundial. Faça um programa em Pascal que receba a idade de um nadador e imprima a sua categoria segundo a tabela a seguir:
+
+|Infantil A|5 - 7 anos        |
+|Infantil B|8 - 10 anos       |
+|Juvenil A |11 - 13 anos      |
+|Juvenil B |14 - 17 anos      |
+|Senior    |Maiores de 18 anos|
+
+|Exemplo de Entrada|Saída Esperada|
+|:----------------:|:------------:|
+|4                 |INVALIDO      |
+|7                 |Infantil A    |
+|8                 |Infantil B    |
+|10                |Infantil B    |
+|11                |Juvenil A     |
+|13                |Juvenil A     |
+|14                |Juvenil B     |
+|17                |Juvenil B     |
+|18                |Senior        |
+
+#### (24)
+Dados três valores A, B e C, faça um programa em Pascal para verificar se estes valores podem ser valores dos lados de um triângulo, se é um triângulo ESCALENO, um triângulo EQUILÁTERO ou um triângulo ISÓSCELES. Caso não sejam válidos, imprimir: “INVALIDO”.
+
+|Exemplo de Entrada|Saída Esperada|
+|:----------------:|:------------:|
+|5<br>5<br>5       |EQUILATERO    |
+|7<br>7<br>5       |ISOSCELES     |
+|3<br>4<br>5       |ESCALENO      |
+|5<br>4<br>15      |INVALIDO      |
+
+#### (25)
+Faça um programa em Pascal que leia as duas notas bimestrais de um aluno e determine a média das notas semestral. Através da média calculada o algoritmo deve imprimir a seguinte mensagem: APROVADO, REPROVADO ou em EXAME (a média é 7 para Aprovação, menor que 3 para Reprovação e as demais em Exame).
+
+|Exemplo de Entrada|Saída Esperada|
+|:----------------:|:------------:|
+|3.1<br>2.5        |REPROVADO     |
+|3<br>3            |EXAME         |
+|10<br>0           |EXAME         |
+|6<br>8            |APROVADO      |
+|10<br>10          |APROVADO      |
+
+#### (26)
+Faça um programa em Pascal que leia o um número inteiro entre 1 e 7 e escreva o dia da semana correspondente. Caso o usuário digite um número fora desse intervalo, deverá aparecer a seguinte mensagem: INEXISTENTE
+
+|Exemplo de Entrada|Saída Esperada|
+|:----------------:|:------------:|
+|0                 |INEXISTENTE   |
+|1                 |DOMINGO       |
+|2                 |SEGUNDA       |
+|3                 |TERCA         |
+|4                 |QUARTA        |
+|5                 |QUINTA        |
+|6                 |SEXTA         |
+|7                 |SABADO        |
+|8                 |INEXISTENTE   |
