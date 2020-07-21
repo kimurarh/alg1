@@ -20,6 +20,8 @@ Compilador utilizado: [Free Pascal](https://www.freepascal.org/)
   * [Exercícios]()
 * [Farma Alg](https://github.com/kimurarh/alg1/tree/master/farma-alg)
   * [Lista 1A](https://github.com/kimurarh/alg1/tree/master/farma-alg/lista1a)
+* [Exercícios Apostila USP](https://github.com/kimurarh/alg1/tree/master/usp-exerc)
+  * [Exercícios com Inteiros](https://github.com/kimurarh/alg1/tree/master/usp-exerc/1-exerc-com-inteiros)
   
 
 ## Informações Básicas 
