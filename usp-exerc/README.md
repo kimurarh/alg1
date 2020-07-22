@@ -2,11 +2,11 @@
 
 Aqui estão dispostos os enunciados referentes aos exercícios da apostila da USP.<br>
 
-* [1. Exercícios com Inteiros](#1.-Exercícios-com-Inteiros)<br>
+* [1. Exercícios com Inteiros](#1-Exercícios-com-Inteiros)<br>
 * [2. Exercícios com Repetições Encaixadas](#2.-Exercícios-com-Repetições-Encaixadas)
 * [3. Exercícios com Reais](#3.-Exercícios-com-Reais)
 
-### 1. Exercícios com Inteiros
+### 1 Exercícios com Inteiros
 
 1.1 Dada uma coleção de números inteiros positivos terminada por 0, imprimir seus quadrados.
 
