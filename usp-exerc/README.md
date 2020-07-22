@@ -4,6 +4,7 @@ Aqui estão dispostos os enunciados referentes aos exercícios da apostila da US
 
 * [1. Exercícios com Inteiros](#1.-Exercícios-com-Inteiros)<br>
 * [2. Exercícios com Repetições Encaixadas](2.-Exercícios-com-Repetições-Encaixadas)
+* [3. Exercícios com Reais](3.-Exercícios-com-Reais)
 
 ### 1. Exercícios com Inteiros
 
@@ -96,3 +97,36 @@ Dado um inteiro n, n >= 10, verificar se é palíndrome.
 > - Se p = 23 e q = 258347, então p não é subnúmero de q.
 
 ### 2. Exercícios com Repetições Encaixadas
+
+2.1 Dados um inteiro positivo n e n sequências de números inteiros, cada qual terminada por 0, calcular a soma dos números pares de cada sequência.
+
+2.2 Dado um inteiro positivo n, determinar todos os inteiros entre 1 e n que são comprimento de hipotenusa de um triângulo retângulo com catetos inteiros.
+
+2.3 Dados dois inteiros positivos m e n, determinar, entre todos os pares de números inteiros (x, y) tais que 0 <= x <= m e 0 <= y <= n, um par para o qual o valor da expressão xy - x^2 + y seja máximo e calcular também esse máximo.
+
+2.4 Dados n e uma sequência de n números inteiros positivos, calcular a soma dos números da sequência que são primos.
+
+2.5 Sabe-se que um número da forma n^3 é igual a soma de n ímpares consecutivos. Dado m, determine os ímpares consecutivos cuja soma é igual a n^3 para n assumindo valores de 1 a m.
+> Exemplo: 1^3 = 1, 2^3 = 3 + 5, 3^3 = 7 + 9 + 11, 4^3 = 13 + 15 + 17 + 19, ...
+
+2.6 Dado um número inteiro positivo, determine a sua decomposição em fatores primos calculando também a multiplicidade de cada fator.
+
+2.7 Dados um inteiro positivo n e n inteiros positivos, determinar o máximo divisor comum a todos eles.
+
+2.8 Dizemos que uma sequência de inteiros é k-alternante se for composta alternadamente por segmentos de números pares de tamanho k e segmentos de números ímpares de tamanho k.
+> Exemplo:<br>
+> A sequência 1 3 6 8 9 11 2 4 1 7 6 8 é 2-alternante. <br>
+> A sequência 2 1 4 7 8 9 12 é 1-alternante. <br>
+> A sequência 4 2 3 1 6 4 2 9 3 não é alternante. <br>
+> A sequência 1 3 5 é 3-alternante.
+
+Dados um inteiro positivo n e uma sequência com n inteiros, verificar se existe um inteiro positivo k tal que a sequência é k-alternante. Dê como saída também o valor de k caso a sequência seja alternante.
+
+### 3. Exercícios com Reais
+
+3.1 Uma pessoa aplicou um capital de x complexos (moeda do país) a juros mensais de z durante 1 ano. Determinar o montante de cada mês durante este período.
+
+3.2 Dado um inteiro positivo n, determine o número harmônico Hn definido por:
+```
+Hn = Somatório(1/k)        de k=1 a n
+```
