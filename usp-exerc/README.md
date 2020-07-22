@@ -3,8 +3,8 @@
 Aqui estão dispostos os enunciados referentes aos exercícios da apostila da USP.<br>
 
 * [1. Exercícios com Inteiros](#1.-Exercícios-com-Inteiros)<br>
-* [2. Exercícios com Repetições Encaixadas](2-Exercícios-com-Repetições-Encaixadas)
-* [3. Exercícios com Reais](3.-Exercícios-com-Reais)
+* [2. Exercícios com Repetições Encaixadas](#2.-Exercícios-com-Repetições-Encaixadas)
+* [3. Exercícios com Reais](#3.-Exercícios-com-Reais)
 
 ### 1. Exercícios com Inteiros
 
@@ -96,7 +96,7 @@ Dado um inteiro n, n >= 10, verificar se é palíndrome.
 > - Se p = 23 e q = 57238, então p é subnúmero de q.
 > - Se p = 23 e q = 258347, então p não é subnúmero de q.
 
-### 2 Exercícios com Repetições Encaixadas
+### 2. Exercícios com Repetições Encaixadas
 
 2.1 Dados um inteiro positivo n e n sequências de números inteiros, cada qual terminada por 0, calcular a soma dos números pares de cada sequência.
 
