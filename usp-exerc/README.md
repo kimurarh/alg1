@@ -2,9 +2,9 @@
 
 Aqui estão dispostos os enunciados referentes aos exercícios da apostila da USP.<br>
 
-* [1. Exercícios com Inteiros](#1-Exercícios-com-Inteiros)<br>
-* [2. Exercícios com Repetições Encaixadas](#2.-Exercícios-com-Repetições-Encaixadas)
-* [3. Exercícios com Reais](#3.-Exercícios-com-Reais)
+* [1 Exercícios com Inteiros](#1-Exercícios-com-Inteiros)<br>
+* [2 Exercícios com Repetições Encaixadas](#2-Exercícios-com-Repetições-Encaixadas)
+* [3 Exercícios com Reais](#3-Exercícios-com-Reais)
 
 ### 1 Exercícios com Inteiros
 
@@ -96,7 +96,7 @@ Dado um inteiro n, n >= 10, verificar se é palíndrome.
 > - Se p = 23 e q = 57238, então p é subnúmero de q.
 > - Se p = 23 e q = 258347, então p não é subnúmero de q.
 
-### 2. Exercícios com Repetições Encaixadas
+### 2 Exercícios com Repetições Encaixadas
 
 2.1 Dados um inteiro positivo n e n sequências de números inteiros, cada qual terminada por 0, calcular a soma dos números pares de cada sequência.
 
@@ -122,7 +122,7 @@ Dado um inteiro n, n >= 10, verificar se é palíndrome.
 
 Dados um inteiro positivo n e uma sequência com n inteiros, verificar se existe um inteiro positivo k tal que a sequência é k-alternante. Dê como saída também o valor de k caso a sequência seja alternante.
 
-### 3. Exercícios com Reais
+### 3 Exercícios com Reais
 
 3.1 Uma pessoa aplicou um capital de x complexos (moeda do país) a juros mensais de z durante 1 ano. Determinar o montante de cada mês durante este período.
 
