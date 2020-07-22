@@ -22,6 +22,7 @@ Compilador utilizado: [Free Pascal](https://www.freepascal.org/)
   * [Lista 1A](https://github.com/kimurarh/alg1/tree/master/farma-alg/lista1a)
 * [Exercícios Apostila USP](https://github.com/kimurarh/alg1/tree/master/usp-exerc)
   * [Exercícios com Inteiros](https://github.com/kimurarh/alg1/tree/master/usp-exerc/1-exerc-com-inteiros)
+  * [Exercícios com Repetições Encaixadas](https://github.com/kimurarh/alg1/tree/master/usp-exerc/1-exerc-com-repeticoes)
   
 
 ## Informações Básicas 
