@@ -24,6 +24,10 @@ Compilador utilizado: [Free Pascal](https://www.freepascal.org/)
 * [Exercícios Apostila USP](https://github.com/kimurarh/alg1/tree/master/usp_exerc)
   * [Exercícios com Inteiros](https://github.com/kimurarh/alg1/tree/master/usp_exerc/1-exerc-com-inteiros)
   * [Exercícios com Repetições Encaixadas](https://github.com/kimurarh/alg1/tree/master/usp-exerc/2-exerc-com-repeticoes)
+* [Provas Antigas](https://github.com/kimurarh/alg1/tree/master/provas_antigas)
+  * [Primeira Prova](https://github.com/kimurarh/alg1/tree/master/provas_antigas/P1#Primeira-Prova)
+  * [Segunda Prova](https://github.com/kimurarh/alg1/tree/master/provas_antigas/P2#Segunda-Prova)
+  * [Terceira Prova](https://github.com/kimurarh/alg1/tree/master/provas_antigas/P3#Terceira-Prova)
   
 
 ## Informações Básicas 
