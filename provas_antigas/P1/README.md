@@ -1,6 +1,7 @@
 ## Primeira Prova
 
-Aqui estão dispostos os enunciados de provas antigas.
+Aqui estão dispostos os enunciados de provas antigas.<br>
+As resoluções estão nesta mesma pasta.
 
 * [2019/1](#20191)
 * [2018/2](#20182)
