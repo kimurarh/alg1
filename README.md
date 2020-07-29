@@ -31,7 +31,7 @@ Compilador utilizado: [Free Pascal](https://www.freepascal.org/)
 - Estrutura de um programa em Pascal:
 ```pascal
 program exemplo;
-var variavel_exemplo;
+var variavel_exemplo:(* tipo da variavel *);
 
 begin
   (* comando 1; *)
