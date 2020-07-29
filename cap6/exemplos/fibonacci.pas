@@ -1,23 +1,23 @@
 program fibonacci;
 
-var ultimo, penultimo, soma, cont, n: integer;
+var ultimo, penultimo, fib, cont, n: longint;
 
 begin
 	read(n);	(* Define quantos numeros serao impressos *)
 	ultimo := 1;	(* primeiros valores da sequencia de fibonacci *)
-	penultimo := 1;
+	penultimo := 0;
 	
 	writeln('primeiros ', n, ' números da sequencia de Fibonacci: ');
-	writeln(penultimo);
-	writeln(ultimo);
+	writeln('fib(', 0, ') = ', penultimo);
+	writeln('fib(', 1, ') = ', ultimo);
 
-	cont := 3;
-	while cont <= n do
+	cont := 2;
+	while cont < n do
 	begin
-		soma := penultimo + ultimo;
-		writeln(soma);
+		fib := penultimo + ultimo;
+		writeln('fib(', cont, ') = ', fib);
 		penultimo := ultimo;
-		ultimo := soma;
+		ultimo := fib;
 		cont := cont + 1;
 	end;
 end.
