@@ -11,3 +11,8 @@
   * [Vários Desvios](https://github.com/kimurarh/alg1/tree/master/farma-alg/lista2#Vários-Desvios)<br>
   * [Repetições Simples](https://github.com/kimurarh/alg1/tree/master/farma-alg/lista2#Repetições-Simples)<br>
   * [Desafios](https://github.com/kimurarh/alg1/tree/master/farma-alg/lista2#Desafios)
+* [Lista 3](https://github.com/kimurarh/alg1/tree/master/farma-alg/lista3#Lista-3)
+  * [Acumuladores](https://github.com/kimurarh/alg1/tree/master/farma-alg/lista3#Acumuladores)<br>
+  * [Repetições com Desvios](https://github.com/kimurarh/alg1/tree/master/farma-alg/lista3#Repetições-com-Desvios)<br>
+  * [Desafios](https://github.com/kimurarh/alg1/tree/master/farma-alg/lista3#Desafios)
+
