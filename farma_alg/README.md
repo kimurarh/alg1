@@ -15,4 +15,7 @@
   * [Acumuladores](https://github.com/kimurarh/alg1/tree/master/farma_alg/lista3#Acumuladores)<br>
   * [Repetições com Desvios](https://github.com/kimurarh/alg1/tree/master/farma_alg/lista3#Repetições-com-Desvios)<br>
   * [Desafios](https://github.com/kimurarh/alg1/tree/master/farma_alg/lista3#Desafios)
+* [Lista 4](https://github.com/kimurarh/alg1/tree/master/farma_alg/lista4#Lista-4)
+  * [Aprimoramentos](https://github.com/kimurarh/alg1/tree/master/farma_alg/lista4#Aprimoramentos)<br>
+  * [Desafios](https://github.com/kimurarh/alg1/tree/master/farma_alg/lista4#Desafios)
 
