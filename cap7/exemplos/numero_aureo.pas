@@ -1,6 +1,6 @@
 program numero_aureo;
 
-const PRECISAO = 0.000000000000000001;
+const PRECISAO = 0.00000000000001;
 
 var ultimo, penultimo, soma: longint;
 	nAureo, nAureoAnterior: real;
@@ -8,7 +8,7 @@ var ultimo, penultimo, soma: longint;
 begin
 	ultimo := 1;
 	penultimo := 1;
-	nAureoAnterior := -1;
+	nAureoAnterior := -1; (* para funcionar o primeiro teste *)
 	nAureo := 1;
 
 	writeln(nAureo:15:14);
