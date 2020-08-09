@@ -11,6 +11,11 @@ As resoluções estão nesta mesma pasta.
 * [2015/2](#20152)
 * [2015/1](#20151)
 * [2014/2](#20142)
+* [2014/1](#20141)
+* [2013/2](#20132)
+* [2013/1](#20131)
+* [2012/2](#20122)
+* [2012/1](#20121)
 
 ### 2019/1
 
@@ -227,7 +232,7 @@ Nao eh alternante
 
 ### 2014/2
 
-<b>Questão 1:</b> (50  pontos) Um número inteiro positivo é dito triangular se seus valor é o produto de três números naturais consecutivos. Por exemplo, o número 120 ṕe triangular porque 120 = 4 * 5 * 6. Dado um número inteiro positivo n verificar se ele é triangular ou não. Se for, imprimir a mensagem "É triangular" e "Não é triangular", caso contrário.
+<b>Questão 1:</b> (50  pontos) Um número inteiro positivo é dito triangular se seus valor é o produto de três números naturais consecutivos. Por exemplo, o número 120 é triangular porque 120 = 4 * 5 * 6. Dado um número inteiro positivo n verificar se ele é triangular ou não. Se for, imprimir a mensagem "É triangular" e "Não é triangular", caso contrário.
 ```
 ./triangular
 120 <ENTER>
@@ -243,3 +248,178 @@ Não é triangular
 ![imagem](imgs/2014-2-questao2.png)
 
 Fazer um algoritmo que calcule o valor aproximado de S. A aproximação tem que se dar pelo truncamento da série de forma a considerar a seguinte condição: a norma da diferença entre duas parcelas consecutivas passa a ser menor que 10^-8. Ao final, imprimir o resultado encontrado para S.
+
+### 2014/1
+
+<b>Questão 1:</b> (30  pontos) Escreva um programa em linguagem Pascal que permite ler, a partir do teclado, dois números inteiros positivos, cada um deles tendo exatamente três algarismos. O programa deve verificar se o terceiro algarismo do primeiro número coincide com o primeiro algarismo do segundo número. Se coincidir, a soma de ambos deve ser impressa. Veja o exemplo abaixo:
+```
+./algarismos
+448 811 <ENTER>
+1259
+```
+Também deve haver verificação se o primeiro algarismo do primeiro número é igual ao terceiro algarismo do segundo número. Se for, a diferença entre ambos deve ser impressa. Veja o exemplo abaixo:
+```
+./algarismos
+237 552 <ENTER>
+-315
+```
+Se nenhuma das duas condições acima citadas ocorrer, imprimir a mensagem do exemplo abaixo:
+```
+./algarismos
+123 456 <ENTER>
+Nao ha coincidencias.
+```
+
+<b>Questão 2:</b> (35  pontos) Considere a soma infinita das parcelas apresentadas abaixo, cujo limite é o valor inteiro 2:
+
+![imagem](imgs/2014-1-questao2.png)
+
+Fazer um programa em linguagem Pascal que calcula o valor aproximado de S. A aproximação deve ser dar pelo truncando da série de forma a considerar a seguinte condição: o módulo da diferença entre duas parcelas consecutivas passa a ser menor que 10^-5. Ao final, imprimir o resultado encontrado para S.
+
+<b>Questão 3:</b> (35  pontos) A definição de uma série de pares Valor-Quadrado em Matemática é dada pela presença de elementos numéricos, organizados em sequências dois-a-dois, em que cada número é seguido de seu quadrado exatamente uma vez (veja os exemplos abaixo). Escreva um programa em linguagem Pascal para ler, a partir do teclado, uma sequência com uma quantidade arbitrária de valores inteiros positivos. A sequência termina com o valor 0 (que não faz parte dela). O programa deve determinar e imprimir se a série é ou não do tipo Valor-Quadrado. Considere os exemplos abaixo:
+```
+./eh_serie_vq
+25 625 7 49 10 100 8 64 0 <ENTER>
+Sim, eh serie Valor-Quadrado
+
+./eh_serie_vq
+6 36 4 16 9 30 5 25 0 <ENTER>
+Nao eh serie Valor-Quadrado
+```
+
+### 2013/2
+
+<b>Questão 1:</b> (20  pontos) Por definição, dois números inteiros positivos de dois algarismos são chamados de pares combinados se ambos são pares e os dı́gitos de um ocorrem na ordem inversa do outro. Escreva um programa em linguagem Pascal que permite ler, a partir do teclado, dois números inteiros positivos, cada um deles tendo dois algarismos. O programa deve verificar se eles são pares combinados e, se forem, imprimir “Sim”. Se não forem, imprimir “Nao”. Veja o exemplo abaixo:
+```
+./sao_pares_comb
+48 84 <ENTER>
+Sim
+
+./sao_pares_comb
+23 32 <ENTER>
+Nao
+
+./sao_pares_comb
+13 31 <ENTER>
+Nao
+```
+
+<b>Questão 2:</b> (40  pontos) Considere a soma infinita das parcelas apresentadas abaixo:
+
+![imagem](imgs/2013-2-questao2.png)
+
+Fazer um programa em linguagem Pascal que calcula o valor aproximado de S com uma quantidade de parcelas que deve obedecer a condição seguinte: o valor da menor parcela é maior ou igual a 10 −15 *OU* o número máximo de termos é igual a 20.
+Ao final, imprimir o resultado encontrado para S.
+
+<b>Questão 3:</b> (40  pontos) A definição de “amplitude” em Estatı́stica é dada pela grandeza numérica resultante da diferença entre o maior e o menor valor do conjunto de valores de uma amostra. Escreva um programa em linguagem Pascal para ler, a partir do teclado, uma sequência com uma quantidade arbitrária de valores reais positivos. A sequência termina com o valor 0 (que não faz parte dela). Os valores da sequência podem vir fora de ordem. O programa deve determinar e imprimir o valor da amplitude estatı́stica dos valores. Por exemplo, considere a entrada de dados abaixo:
+```
+4.5 5.2 1.7 1.3 1.9 2.2 8.3 9.1 5.4 0 <ENTER>
+```
+Ao final da leitura e do cálculo, o monitor de vı́deo deverá mostrar:
+```
+Amplitude = 7.8
+```
+
+### 2013/1
+
+<b>Questão 1:</b> (35  pontos) Escreva um programa em linguagem Pascal que permite ler, a partir do teclado, três números inteiros positivos: i, j e k. Se j for múltiplo de i e k for múltiplo de j, o programa deve imprimir a soma dos três. Veja o exemplo abaixo:
+```
+33 165 495 <ENTER>
+693
+```
+Se os três valores forem consecutivos na ordem lida, o programa deve imprimi-los na ordem
+decrescente. Veja o exemplo abaixo:
+```
+74 75 76 <ENTER>
+76 75 74
+```
+Em qualquer outra situação, o programa deve calcular e imprimir a média aritmética simples
+dos três valores.
+
+<b>Questão 2:</b> (30  pontos) Considere a soma infinita das parcelas apresentadas abaixo:
+
+![imagem](imgs/2013-1-questao2.png)
+
+Fazer um programa em linguagem Pascal que calcula o valor aproximado de S incluindo apenas os primeiros termos da série que são maiores que 10^-17. Ao final, imprimir o resultado encontrado para S.
+
+<b>Questão 3:</b> (35  pontos) Se multiplicarmos 37 por alguns números, obtemos números cujos algarismos, quando somados, resultam no mesmo número que foi multiplicado pelo 37. Por exemplo, se tomarmos o número 15, multiplicando-o por 37, obtemos 555. Somando-se 5 + 5 + 5 resulta em 15. Escreva um programa Pascal que lê um número inteiro positivo, calcula o resultado da multiplicação por 37, soma os algarismos do resultado, compara essa soma com o número lido e imprime a informação sobre a coincidência ou não-coincidência. A tela de vı́deo com dados de leitura de dados e de saı́da deve obedecer exatamente aos formatos dos exemplos de execução abaixo. 
+
+Exemplos:
+```
+./soma_coincide
+24 <ENTER>
+24 vezes 37 = 888
+A soma 8+8+8 coindide com 24.
+
+./soma_coincide
+26
+26 vezes 37 = 962
+A soma 2+6+9 nao coindide com 26.
+```
+
+### 2012/2
+
+<b>Questão 1:</b> (20  pontos) Escreva um programa em linguagem Pascal que permite ler, a partir do teclado, três números inteiros positivos (h, m, s). Esses números identificam o tempo de duração de um evento qualquer, onde: h representa uma quantidade de horas; m representa uma quantidade de minutos; s representa uma quantidade de segundos. O programa deve escrever na saı́da padrão (monitor) o tempo em segundos que representa a duração total dos valores fornecidos. Veja um exemplo de entrada e saı́da de dados a partir da execução do programa:
+```
+3 <ENTER>
+26 <ENTER>
+12 <ENTER>
+12372
+```
+
+<b>Questão 2:</b> (40  pontos) Uma aproximação da constante inteira 2 (dois) pode ser obtida por meio da soma infinita das parcelas apresentadas abaixo:
+
+![imagem](imgs/2012-2-questao2.png)
+
+Fazer um programa em linguagem Pascal que calcula o valor de S, considerando apenas os 100 primeiros termos da série. Ao final, imprimir o resultado encontrado para S.
+
+<b>Questão 3:</b> (40  pontos) Escreva um programa em linguagem Pascal para ler, a partir do teclado, uma quantidade arbitrária de números inteiros positivos e identificar o maior múltiplo de 7 (sete) entre esses números. Depois da leitura dos dados, o maior múltiplo de 7 encontrado deve ser impresso. O número zero é o último número fornecido como dado de entrada. Por exemplo, considere a entrada de dados abaixo:
+```
+4 8 3 63 99 41 28 99 65 0
+<ENTER>
+Ao final da leitura desses valores, o monitor de vı́deo deverá mostrar apenas o seguinte valor:
+63
+```
+
+### 2012/1
+
+<b>Questão 1:</b> (20  pontos) O programa em Pascal abaixo contém erros de lógica. Ele deveria calcular e imprimir o valor de S como a soma das parcelas da seguinte série:
+
+![imagem](imgs/2012-1-questao1.png)
+
+Corrija os erros do programa para que ele funcione tal como esperado.
+```pascal
+program SomaParcelas ;
+var
+  S : real ;
+  num : integer ;
+begin
+  S := 0 ;
+  num := 1 ;
+  while num < 100 do
+  begin
+    S := S + num/(100 −num ) ;
+    num := num + 1 ;
+  end ;
+  writeln ( ’O v a l o r de S = ’ , S ) ;
+end.
+```
+<b>Questão 2:</b> (30  pontos) Fazer um programa em linguagem Pascal para:
+* Ler apenas um número N do teclado, que será sempre maior do que 1;
+* Calcular e imprimir todas os combinações de pares ordenados da forma (I1, I2) de números inteiros positivos, ambos menores do que N, de forma que I1 + I2 resulta no número N.
+Cada par (I1 , I2) da combinação deve ser impresso em uma linha da tela do computador. Um exemplo de execução segue abaixo:
+```
+Entre com um número maior do que 1: 5
+1 e 4
+2 e 3
+3 e 2
+4 e 1
+```
+
+<b>Questão 3:</b> (50  pontos) Escreva um programa Pascal que leia dois valores inteiros positivos A e B. Se A for igual a B, dois novos valores devem ser lidos, até que sejam informados valores distintos. Após serem lidos dois números distintos, se A for menor que B, o programa deve calcular e escrever a soma dos números ı́mpares existentes entre A (inclusive) e B (inclusive). Note que A e B não são necessariamente ı́mpares. Se A for maior que B, o programa deve calcular e escrever a média aritmética dos múltiplos de 3 existentes entre A (inclusive) e B (inclusive). Note que A e B não são necessariamente múltiplos de 3. Observação: o programa deve processar apenas 1 (um) par de valores garantidamente distintos e, depois disso, terminará a sua execução. Um exemplo de execução segue abaixo:
+```
+Entre com dois valores: 7 7
+Os valores devem ser diferentes.
+Entre com dois valores: 7 12
+A soma dos numeros impares e: 27
+```
