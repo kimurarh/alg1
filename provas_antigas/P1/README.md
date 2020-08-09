@@ -375,8 +375,7 @@ Fazer um programa em linguagem Pascal que calcula o valor de S, considerando ape
 
 <b>Questão 3:</b> (40  pontos) Escreva um programa em linguagem Pascal para ler, a partir do teclado, uma quantidade arbitrária de números inteiros positivos e identificar o maior múltiplo de 7 (sete) entre esses números. Depois da leitura dos dados, o maior múltiplo de 7 encontrado deve ser impresso. O número zero é o último número fornecido como dado de entrada. Por exemplo, considere a entrada de dados abaixo:
 ```
-4 8 3 63 99 41 28 99 65 0
-<ENTER>
+4 8 3 63 99 41 28 99 65 0 <ENTER>
 Ao final da leitura desses valores, o monitor de vı́deo deverá mostrar apenas o seguinte valor:
 63
 ```
@@ -389,19 +388,19 @@ Ao final da leitura desses valores, o monitor de vı́deo deverá mostrar apenas
 
 Corrija os erros do programa para que ele funcione tal como esperado.
 ```pascal
-program SomaParcelas ;
+program SomaParcelas;
 var
-  S : real ;
-  num : integer ;
+  S : real;
+  num : integer;
 begin
-  S := 0 ;
-  num := 1 ;
+  S := 0;
+  num := 1;
   while num < 100 do
   begin
-    S := S + num/(100 −num ) ;
-    num := num + 1 ;
-  end ;
-  writeln ( ’O v a l o r de S = ’ , S ) ;
+    S := S + num/(100 −num );
+    num := num + 1;
+  end;
+  writeln ( ’O v a l o r de S = ’ , S );
 end.
 ```
 <b>Questão 2:</b> (30  pontos) Fazer um programa em linguagem Pascal para:
