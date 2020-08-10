@@ -1,19 +1,19 @@
 program ex16;
 
 var
-	num, baseDois, soma: longint;
+	num, baseDois, numBin: longint;
 
 begin
-	read(num);
+	read(numBin);
 
 	baseDois := 1;
-	soma := 0;
+	num := 0;
 
-	while num <> 0 do
+	while numBin <> 0 do
 	begin
-		soma := soma + (num mod 10) * baseDois;
-		num := num div 10;
+		num := num + (numBin mod 10) * baseDois;
+		numBin := numBin div 10;
 		baseDois := baseDois * 2;
 	end;
-	writeln(soma);
+	writeln(num);
 end.

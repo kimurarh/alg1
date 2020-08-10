@@ -8,19 +8,20 @@ begin
 	read(n);
 	writeln('Digite a sua sequencia de números:');
 
-	i := 1;
-	cont := 1;
-
 	(* Primeiro número da sequência *)
 	read(num);
 	numAnterior := num;
+	i := 1;
+	cont := 1;
 
 	while i < n do
 	begin
 		read(num);
 		if num <> numAnterior then
+		begin
 			cont := cont + 1;
-		numAnterior := num;
+			numAnterior := num;
+		end;
 		i := i + 1;
 	end;
 	writeln(cont, ' segmentos de números iguais');
