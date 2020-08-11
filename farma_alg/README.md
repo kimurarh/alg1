@@ -18,4 +18,7 @@
 * [Lista 4](https://github.com/kimurarh/alg1/tree/master/farma_alg/lista4#Lista-4)
   * [Aprimoramentos](https://github.com/kimurarh/alg1/tree/master/farma_alg/lista4#Aprimoramentos)<br>
   * [Desafios](https://github.com/kimurarh/alg1/tree/master/farma_alg/lista4#Desafios)
+* [Lista 5](https://github.com/kimurarh/alg1/tree/master/farma_alg/lista5#Lista-5)
+  * [Series](https://github.com/kimurarh/alg1/tree/master/farma_alg/lista5#Series)<br>
+  * [Desafios](https://github.com/kimurarh/alg1/tree/master/farma_alg/lista5#Desafios)
 
