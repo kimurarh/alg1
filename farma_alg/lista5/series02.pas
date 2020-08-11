@@ -12,7 +12,6 @@ begin
 
 	while i < n do
 	begin
-		writeln(i,'/', n - i);
 		soma := soma + i/(n - i);
 		i := i + 1;
 	end;
