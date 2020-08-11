@@ -7,13 +7,17 @@ var
 begin
 	read(n1, n2, n3, faltas);
 	
-	media := (n1 + n2 + n3)/3;
 
-	if (media < 4) or (faltas >= 10) then
+	if faltas >= 10 then
 		writeln('NAO')
 	else
+	begin
+		media := (n1 + n2 + n3)/3;
 		if media >= 7 then
 			writeln('SIM')
+		else if media >= 4 then
+			writeln('TALVEZ')
 		else
-			writeln('TALVEZ');
+			writeln('NAO');
+	end;
 end.
