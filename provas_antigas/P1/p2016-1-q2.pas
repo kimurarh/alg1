@@ -9,7 +9,7 @@ begin
 
 	encaixa := true;
 
-	while (b > 0) and (encaixa = true) do
+	while (b > 0) and encaixa do
 	begin
 		(* verifica se os ultimos digitos de a e b são diferentes *)
 		if a mod 10 <> b mod 10 then

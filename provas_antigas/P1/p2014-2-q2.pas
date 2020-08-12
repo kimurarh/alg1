@@ -1,26 +1,24 @@
-program p2014_2_q2;
+program teste;
 
 var
-	i, sinal: longint;
-	S, num, anterior: real;
+	n, sinal: longint;
+	S, diferenca: real;
 
 begin
-	S := 0;
-	anterior := 0;
-	num := 1;
-	i := 2;
-	sinal := -1;
+	
+	S := 1;
+	n := 1;
+	sinal := 1;
+	diferenca := 1;
 
-	while abs(anterior - num) >= 0.00000001 do
+	while diferenca >= 0.00000001 do
 	begin
-		S := S + num;
-		anterior := num;
-		(* calcula proximo numero *)
-		num := sinal * i/(i * i);
-		i := i + 1;
+		n := n + 1;
 		sinal := -sinal;
-	end;
-	(* soma ultimo numero *)
-	S := S + num;
+		S := S + sinal * 1/n;
+		
+		diferenca := abs(1/n - 1/(n - 1));	
+	end;	
 	writeln(S);
 end.
+

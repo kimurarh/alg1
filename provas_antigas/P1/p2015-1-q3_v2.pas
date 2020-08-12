@@ -1,63 +1,56 @@
-program p2015_1_q3;
+program p2015_1_q3_v2;
 
 var
 	num, cont, k: longint;
-	primeiro, par, parAnterior, kAlternante: boolean;
+	par, parAnterior, kAlternante: boolean;
 
 begin
 	read(num);
 
 	if num <> 0 then
 	begin
-		primeiro := true;
-		k := 0;
-		kAlternante := true;
+		
+		(* verifica paridade do primeiro número *)
+		if num mod 2 = 0 then
+			parAnterior := true
+		else
+			parAnterior := false;
 
-		while (num <> 0) and kAlternante do
+		kAlternante := true;
+		cont := 1;
+		k := 0;
+		read(num);
+
+		while num <> 0 do
 		begin
-			(* Verifica paridade do primeiro digito *)
-			if primeiro then
-			begin
-				if num mod 2 = 0 then
-					parAnterior := true
-				else
-					parAnterior := false;
-				primeiro := false;
-				cont := 1;
-			end
+			
+			(* verifica paridade *)
+			if num mod 2 = 0 then
+				par := true
+			else
+				par := false;
+
+			if par = parAnterior then
+				cont := cont + 1
 			else
 			begin
-				(* Verifica paridade dos outros *)
-				if num mod 2 = 0 then
-					par := true
-				else
-					par := false;
-
-				if par = parAnterior then
-					cont := cont + 1
-				else
-				begin
-					if k = 0 then (* primeira sequencia *)
-						k := cont;
-					if cont <> k then
-						kAlternante := false;
-					parAnterior := par;
-					cont := 1;
-				end;
+				if k = 0 then (* primeira sequencia *)
+					k := cont
+				else if k <> cont then
+					kAlternante := false;
+				parAnterior := par;
+				cont := 1;
 			end;
-
 			read(num);
 		end;
 
-		(* verifica a ultima sequencia *)
+		(* caso tiver apenas uma sequencia *)
 		if k = 0 then
 			k := cont;
-		if cont <> k then
-			kAlternante := false;
 
-		if kAlternante then
-			writeln('Sim, eh ', k,'-alternante')
+		if (k <> cont) or (kAlternante = false) then
+			writeln('Nao eh alternante.')
 		else
-			writeln('Nao eh alternante');
+			writeln('Sim, eh ', cont, '-alternante.');
 	end;
 end.

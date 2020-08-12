@@ -3,7 +3,7 @@ program histograma;
 var	bebe, crianca, adolescente, adulto, idoso, idade: integer;
 
 begin
-	(* Inicializa os contadores *)
+    (* Inicializa os contadores *)
 	bebe := 0;
 	crianca := 0;
 	adolescente := 0;

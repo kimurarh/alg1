@@ -43,11 +43,11 @@ begin
 			read(num);
 		end;
 
-		(* verifica a ultima sequencia *)
+		(* se tiver apenas uma sequencia *)
 		if k = 0 then
 			k := cont
 		else
-			if cont <> k then
+			if cont <> k then (* verifica ultima sequencia *)
 				k_alternante := false;
 
 		if k_alternante then
