@@ -10,33 +10,35 @@ begin
 end;
 
 function seno(angulo: real): real;
-var sinal, cont, num, den: real;
+var sinal, cont, num, den, soma: real;
 begin
-	seno := 0;
+	soma := 0;
 	num := angulo;
 	den := 1;
 	sinal := 1;
 	cont := 1;
 	while num/den >= 0.00000001 do
 	begin
-		seno := seno + sinal * num / den;
+		soma := soma + sinal * num / den;
 		proximo_termo(sinal, num, den, cont);
 	end;
+	seno := soma;
 end;
 
 function cosseno(angulo: real): real;
-var sinal, cont, num, den: real;
+var sinal, cont, num, den, soma: real;
 begin
-	cosseno := 1;
+	soma := 1;
 	num := angulo * angulo;
 	den := 2;
 	sinal := -1;
 	cont := 2;
 	while num/den >= 0.00000001 do
 	begin
-		cosseno := cosseno + sinal * num / den;
+		soma := soma + sinal * num / den;
 		proximo_termo(sinal, num, den, cont);
 	end;
+	cosseno := soma;
 end;
 
 function tangente(angulo: real): real;
