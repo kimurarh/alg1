@@ -23,3 +23,5 @@
   * [Desafios](https://github.com/kimurarh/alg1/tree/master/farma_alg/lista5#Desafios)
 * [Lista 6](https://github.com/kimurarh/alg1/tree/master/farma_alg/lista6#lista-6)
   * [Funções](https://github.com/kimurarh/alg1/tree/master/farma_alg/lista6#Funções)
+* [Lista 7](https://github.com/kimurarh/alg1/tree/master/farma_alg/lista7#lista-7)
+  * [Vetores](https://github.com/kimurarh/alg1/tree/master/farma_alg/lista7#Vetores)
