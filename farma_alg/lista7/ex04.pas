@@ -20,6 +20,7 @@ begin
 	n := n - 1;
 end;
 
+(* Imprime os resultados conforme pedido pelo exercicio *)
 procedure imprime_num_distintos(var v_leitura, v_contagem: vetor; var n: longint);
 var i: longint;
 begin
@@ -41,6 +42,7 @@ begin
 			writeln(v_leitura[i], ' ocorre ', v_contagem[i], ' vezes');
 end;
 
+(* Retira os numeros repetidos do vetor de leitura e incrementa o vetor de contagem *)
 procedure conta_num_distintos(var v_leitura, v_contagem: vetor; var n: longint);
 var i, j: longint;
 begin
@@ -53,7 +55,7 @@ begin
 		begin
 			if v_leitura[i] = v_leitura[j] then
 			begin
-				rm_vetor(j, v_leitura, n);
+				rm_vetor(j, v_leitura, n); (* Tira o elemento repetido do vetor *)
 				v_contagem[i] := v_contagem[i] + 1;
 			end
 			else

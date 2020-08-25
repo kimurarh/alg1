@@ -94,5 +94,5 @@ begin
 			rm_vetor(num, v, tam);
 		le_codigo(codigo);
 	end;
-	imprime_vetor(v, tam);
+	imprime_vetor(v, tam); (* Imprime vetor final *)
 end.
