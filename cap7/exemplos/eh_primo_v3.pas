@@ -6,7 +6,6 @@ var
 
 begin
 	(* Matematicamente, dado um número n, o maior divisor que ele pode ter é sqrt(n) *)
-
 	read(n);
 
 	if n mod 2 = 0 then
