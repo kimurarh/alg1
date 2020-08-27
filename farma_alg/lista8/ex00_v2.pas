@@ -21,7 +21,7 @@ begin
 
 	for i := 2 to tam do
 	begin
-		if soma < 0 then
+		if soma < 0 then (* se soma do segmento fica negativa -> reinicia *)
 			soma := v[i]
 		else
 			soma := soma + v[i];
