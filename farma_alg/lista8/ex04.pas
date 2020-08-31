@@ -32,8 +32,10 @@ end;
 function verifica_restante(var v2: vetor; tv2: longint; var v1: vetor; tv1: longint; i: longint): boolean;
 var j, cont: longint; encontrou: boolean;
 begin
-	if (i <= tv1 - tv2) or (i = 1) then
-		begin
+	if i > tv1 - tv2 then (* posicao onde nao eh possivel que contre a 'palavra' inteira *)
+        verifica_restante := false
+    else
+    begin
 		encontrou := true;
 		j := 1;
 		cont := 1;
@@ -46,11 +48,8 @@ begin
 			cont := cont + 1;
 		end;
 		verifica_restante := encontrou;
-	end
-	else (* se i > tv1 - tv2, entao encontrou numa posicao onde nao eh possivel que encontre a 'palavra' inteira *)
-		verifica_restante := false;
+    end;
 end;
-
 
 function ocorre(var v2: vetor; tv2: longint; var v1: vetor; tv1: longint; var pos_ini, pos_fim: longint): boolean;
 var i: longint;
