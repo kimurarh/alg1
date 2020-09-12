@@ -23,6 +23,16 @@ begin
     p.tam := 0;
 end;
 
+function pilha_vazia(var p: pilha): boolean;
+(* retorna true se a pilha esta vazia e false caso contrario *)
+begin
+    if p.tam = 0 then
+        pilha_vazia := true
+    else
+        pilha_vazia := false;
+    (* pilha_vazia := p.tam = 0; *)
+end;
+
 procedure empilhar(n: tipo_elemento; var p: pilha);
 (* empilha o numero n *)
 begin
@@ -37,16 +47,6 @@ begin
     p.tam := p.tam - 1;
 end;
 
-function pilha_vazia(var p: pilha): boolean;
-(* retorna true se a pilha esta vazia e false caso contrario *)
-begin
-    if p.tam = 0 then
-        pilha_vazia := true
-    else
-        pilha_vazia := false;
-    (* pilha_vazia := p.tam = 0; *)
-end;
-
 function topo(var p: pilha): tipo_elemento;
 (* retorna o topo da pilha sem desempilhar *)
 begin
@@ -57,20 +57,17 @@ begin
     inicializar(p);
     balanceado := true;
     read(n);
-    while n <> 0 do
+    while (n <> 0) and balanceado do
     begin
         (* algoritmo que testa o balanceamentos dos parenteses *)
         if n > 0 then
             empilhar (n, p)
-        else
-            if (pilha_vazia(p)) or (n + desempilhar(p) <> 0) then
-                balanceado := false;
+        else if (pilha_vazia(p)) or (n + desempilhar(p) <> 0) then
+            balanceado := false;
         read(n);
     end;
-    if not pilha_vazia(p) then
-        balanceado := false;
 
-    if balanceado then
+    if balanceado and pilha_vazia(p) then
         writeln('sim')
     else
         writeln('nao');
