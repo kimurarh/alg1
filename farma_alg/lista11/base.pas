@@ -270,11 +270,11 @@ function retirar_um_elemento (var c: conjunto): elemento;
 begin
      if not eh_vazio(c) then
      begin
-          retira_um_elemento:= c[c[0]];
+          retirar_um_elemento:= c[c[0]];
           c[0]:= c[0] - 1;
      end
      else
-          retira_um_elemento:= 0;
+          retirar_um_elemento:= 0;
 end;
 
 begin
