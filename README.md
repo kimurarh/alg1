@@ -9,11 +9,11 @@ Compilador utilizado: [Free Pascal](https://www.freepascal.org/)
 
 ## Sumário
 
-* [Capítulo 5 - Conceitos Elementares](https://github.com/kimurarh/alg1/tree/master/cap5)
-* [Capítulo 6 - Técnicas Elementares](https://github.com/kimurarh/alg1/tree/master/cap6)
-* [Capítulo 7 - Aplicações das Técnicas Elementares](https://github.com/kimurarh/alg1/tree/master/cap7)
-* [Capítulo 8 - Funções e Procedimentos](https://github.com/kimurarh/alg1/tree/master/cap8)
-* [Capítulo 9 - Vetores](https://github.com/kimurarh/alg1/tree/master/cap9)
+* [Capítulo 05 - Conceitos Elementares](https://github.com/kimurarh/alg1/tree/master/cap5)
+* [Capítulo 06 - Técnicas Elementares](https://github.com/kimurarh/alg1/tree/master/cap6)
+* [Capítulo 07 - Aplicações das Técnicas Elementares](https://github.com/kimurarh/alg1/tree/master/cap7)
+* [Capítulo 08 - Funções e Procedimentos](https://github.com/kimurarh/alg1/tree/master/cap8)
+* [Capítulo 09 - Vetores](https://github.com/kimurarh/alg1/tree/master/cap9)
 * [Capítulo 10 - Matrizes](https://github.com/kimurarh/alg1/tree/master/cap10)
 * [Capítulo 11 - Registros](https://github.com/kimurarh/alg1/tree/master/cap11)
 * [Capítulo 12 - Tipos Abstratos de Dados](https://github.com/kimurarh/alg1/tree/master/cap12)
