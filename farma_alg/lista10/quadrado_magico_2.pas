@@ -60,9 +60,6 @@ begin
             i := i + 1;
         end;
 
-        if verifica then
-            writeln('ACHEI');
-
         eh_quadrado_magico := verifica;
     end;
 end;
@@ -87,11 +84,9 @@ begin
         lin_ini := 1;
         col_ini := 0;
         pos_fim := n - tam + 1;
-        writeln('tamanho = ', tam);
         while (lin_ini <> pos_fim) or (col_ini <> pos_fim) do
         begin
             prox_posicao(lin_ini, col_ini, n, tam);
-            writeln('linha = ', lin_ini, ' | coluna = ', col_ini);
             if eh_quadrado_magico(mat, n, lin_ini, col_ini, tam) then
                 cont := cont + 1;
         end;
@@ -104,4 +99,4 @@ begin
     read(n);
     le_matriz_quadrada(mat, n);
     writeln(conta_quadrados_magicos(mat, n));
-end.
+end
