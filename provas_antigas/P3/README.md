@@ -7,6 +7,10 @@ As resoluções estão nesta mesma pasta.
 * [2018/2](#20182)
 * [2018/1](#20181)
 * [2017/1](#20171)
+* [2016/1](#20161)
+* [2015/1](#20151)
+* [2014/2](#20142)
+* [2014/1](#20141)
 
 ### 2019/1
 
@@ -265,3 +269,181 @@ Exemplo: Na matriz M 6×6 da esquerda abaixo, existe uma borda de tamanho 3 cujo
 1 1 1 5 5 4     1 1 1 0 0 4
 5 1 2 5 5 5     0 1 2 0 0 0
 ```
+
+### 2016/1
+
+<b>Questão Única:</b> (100  pontos) Jogo Batalha Naval
+
+<b>DESCRIÇÃO</b>: O jogo de batalha naval é jogado em um tabuleiro retangular com N linhas e M colunas. Cada posição desse tabuleiro é um quadrado que pode conter água ou uma parte de um navio. Dizemos que dois quadrados são vizinhos se estes possuem um lado em comum. Se duas partes de navio estão em posições vizinhas, então essas duas partes pertencem ao mesmo navio. A regra do jogo proíbe que os quadrados de duas partes de navios distintos tenham um canto em comum
+(em outras palavras, que quadrados de duas partes de navios distintos compartilhem um vértice). 
+    
+Cada disparo que um jogador faz deve ser feito em um dos quadrados do tabuleiro do outro jogador. Um jogador informa ao outro a coluna e a linha do quadrado alvo do disparo. Para que um navio seja destruído, o jogador deve acertar todas as partes desse navio. O jogador não pode atirar no mesmo lugar mais de uma vez.
+
+<b>TAREFA</b>: Escreva um programa Pascal estruturado (ou seja, com procedimentos e/ou funções) para, dadas a configuração do tabuleiro e uma sequência de disparos feitos por um jogador, determinar o número de navios do outro jogador que foram destruídos.
+
+<b>ENTRADA</b>: A primeira linha da entrada contém dois números inteiros N e M (1 <= N, M <= 100) representando respectivamente o número de linhas e de colunas do tabuleiro. As N linhas seguintes correspondem ao tabuleiro do jogo. Cada uma dessas linhas contém M caracteres, indicando o conteúdo da posição correspondente no tabuleiro. Se esse caractere for ".", essa posição contém água; se for "#", essa posição contém uma parte de um navio. A próxima linha contém um número K que é o número de disparos feitos pelo jogador (1 <= K <= N x M). As K linhas seguintes indicam os disparos feitos pelo jogador. Cada linha contém dois inteiros L e C, indicando a linha e a coluna do disparo feito pelo outro jogador (1 <= L <= N e 1 <= C <= M).
+    
+<b>SAIDA</b>: Uma única linha contendo um único número inteiro: o número de navios destruídos.
+    
+<b>AVALIAÇÃO</b>:
+1. (70 pontos): implementação na qual todos os navios são compostos por exatamente uma parte, ou seja, cada navio ocupa extamente um quadrado (exemplo da entrada 1).
+
+2. (30 pontos): implementação na qual navios podem ocupar mais de um quadrado (exempos de entrada 2 e 3); definições da implementação anterior podem ser reutilizadas.
+
+Observe que não é estritamente necessário implementar ambas as versões, uma vez que a versão 2 também resolve a situação da versão 1.
+
+<b>EXEMPLOS</b>:
+```
+Exemplo 1 (6 navios)        Entrada 2 (4 navios)        Entrada 3 (3 navios)
+5 5                         5 5                         7 7
+. . # . #                   . . # # #                   . # . . . . #
+# . . . .                   . . . . .                   # # # . . # #
+. . . # .                   # # # # #                   . # . . . . #
+# . . . .                   . . . . .                   . . . . # . #
+. . . # .                   # . # # .                   . # . . # . #
+5                           5                           . # # # # . #
+1 3                         5 1                         . . . . . . .
+1 4                         5 2                         8    
+1 5                         1 3                         1 1
+2 1                         1 4                         1 2
+3 4                         1 5                         2 1
+                                                        2 2
+Saida:                      Saida:                      2 3
+4                           2                           3 2
+                                                        5 2
+                                                        6 2
+                                                        
+                                                        Saida:
+                                                        1
+```                                                 
+ 
+### 2015/1
+
+<b>Questão Única:</b> (100  pontos) 
+
+<b>Introdução</b>: Suponha que você receba o mapa de um labirinto, no qual existem alguns caminhos que levam da entrada dele para a saı́da e, como em todo labirinto, alguns caminhos que são becos sem saı́da. O problema é não apenas encontrar um caminho que leva à saı́da, mas determinar o menor caminho existente.
+
+A seguir está um trecho de código em Pascal que resolve este problema usando um algoritmo clássico encontrado na literatura da computação. O código apresenta algumas declarações de constantes, tipos e variáveis bem como um programa principal que será detalhado em seguida.
+
+```Pascal
+Program labirinto;
+Const
+    MAX = 100;
+    PAREDE = -1;
+    VAZIO = 0;  
+    LIN = 1;
+    COL = 2;
+Type
+    labirinto= array [1..MAX,1..MAX] of integer;
+    coordenada = array [1..2] of integer;
+    fila= array [1..MAX] of coordenada;
+Var
+    L: labirinto;
+    tamL, entrada, saida, elem, vizinho: coordenada;
+    F: fila; tamF: integer;
+    distancia: integer;
+Begin
+    iniciaFila(F, tamF);
+    distancia := 1;
+    lerLabirinto(L, tamL, entrada, saida);
+    
+    marcaElemLabirinto(L, saida, distancia);
+    insereElemFila (F, tamF, saida);
+    
+    repeat
+        retiraElemFila(F, tamF, elem);
+        distancia := valorElemLabirinto(L, elem) + 1;
+        "para cada vizinho a ser marcado de elem"
+        begin
+            marcaElemLabirinto(L, vizinho, distancia);
+            insereElemFila(F, tamF, vizinho);
+        end;
+    until (filaVazia(F, tamF));
+
+    imprimeMenorCaminho(L, entrada);
+end.
+```
+
+<b>Detalhamento</b>: Este programa foi concebido para receber uma entrada de dados no seguinte formato: a primeira linha da entrada de dados contém as dimensões de uma matriz de inteiros; a segunda linha contém as coordenadas da entrada do labirinto (uma posição da matriz); a terceira linha contém as coordenadas da saı́da do labirinto (uma outra posição da matriz); as outras linhas contêm os elementos da matriz propriamente dita, constituı́da de elementos que
+podem ser 0 (zero) ou -1 (menos 1). Os zeros representam posições pelas quais se pode “passar” na matriz, enquanto que os -1 representam “paredes”. Um exemplo de entrada de dados é:
+```
+6 12
+1 1
+6 12
+ 0  0  0 -1  0  0  0 -1  0 -1  0  0
+ 0 -1  0 -1  0 -1  0  0  0 -1  0 -1
+ 0  0  0  0  0 -1  0 -1 -1 -1  0 -1
+-1  0 -1 -1  0 -1  0  0  0  0  0  0
+ 0  0  0  0  0  0  0 -1 -1  0 -1  0
+ 0 -1  0 -1 -1 -1  0  0 -1  0 -1  0
+```
+Note que um labirito pode possuir várias possibilidades de entrada e saı́da, mas o programa deve encontrar um caminho mı́nimo entre as coordenadas indicadas no arquivo de entrada passando apenas por elementos da matriz propriamente dita.
+
+A ideia do algoritmo é marcar cada posição da matriz que não seja uma parede com valores inteiros que representam a distância desta posição para a saı́da. Para isto, ele inicia marcando a posição da saı́da com o valor 1 e toda outra posição (L,C) é marcada com o valor K desde que exista algum vizinho já marcado com valor (K-1). Os vizinhos válidos são: o da esquerda (L,C-1), o da direita (L,C+1), o da posição de cima (L-1,C) e o da posição de baixo (L+1,C), desde que estas coordenadas estejam dentro dos limites da matriz.
+
+Após esta etapa, a matriz acima fica como mostrado na figura seguinte:
+```
+19 18 17 -1 13 12 11 -1 13 -1  7  8
+18 -1 16 -1 14 -1 10 11 12 -1  6 -1
+17 16 15 14 13 -1  9 -1 -1 -1  5 -1
+-1 15 -1 -1 12 -1  8  7  6  5  4  3
+15 14 13 12 11 10  9 -1 -1  6 -1  2
+16 -1 14 -1 -1 -1 10 11 -1  7 -1  1
+```
+
+<b>Implementação</b>: Para implementar esta ideia, o programa principal, contendo ainda uma linha em pseudo-código, usa o seguinte algoritmo (que depende da correta inicialização das estruturas de dados): marca a posição da saı́da com o valor 1 (um) e insere seus vizinhos válidos no final de uma fila. Em seguida, até que a fila esvazie completamente, retira uma coordenada do inı́cio da fila, descobre qual é a distância K que esta tem da saı́da e para cada um dos seus vizinhos válidos: (1) anota K + 1 no vizinho; e (2) insere o vizinho no final da fila.
+
+<b>Menor caminho</b>: Na última linha do programa, após o laço que marca as distâncias na matriz, existe uma chamada a um procedimento que recebe uma matriz preenchida como descrito acima e encontra o menor caminho para se chegar da entrada do labirinto na sua saı́da. O menor caminho é encontrado partindo-se da entrada do labirinto e escolhendo sucessivamente em cada etapa o vizinho que tem um valor menor que o atual, até se chegar na saı́da, que tem o valor 1. Basta anotar de alguma maneira este caminho e em seguida imprimı́-lo.
+
+<b>Questão única</b> (100 pontos): Sem fazer este último procedimento, sua tarefa é refinar o programa principal e implementar todas as outras funções e procedimentos.
+
+<b>Questão bônus</b> (10 pontos extra): Da maneira como você achar conveniente, implemente o procedimento que imprime o menor caminho.
+
+### 2014/2
+
+<b>Questão Única:</b> (100  pontos) 
+
+Escreva um programa em linguagem Pascal que faz a leitura de duas matrizes (A e B) de valores inteiros e tamanhos NxN (N≤100) fornecido pelo usuario. Depois o programa ordena os elementos das duas matrizes em ordem crescente e as imprime. Ao final seu programa deve gerar uma terceira matriz (Z) com o tamanho de Nx(2N) que contera todos os elementos dasmatrizes A e B em ordem crescente.
+
+```
+.\prova3
+3
+6 8 7
+2 3 5
+1 9 4
+
+11 14 17
+13 15 18
+16 12 10
+
+Matriz A ordenada:
+
+1 2 3
+4 5 6
+7 8 9
+
+Matriz B ordenada:
+
+10 11 12
+13 14 15
+16 17 18
+
+Matriz Z:
+
+1 2 3 4 5 6
+7 8 9 10 11 12
+13 14 15 16 17 18
+```
+
+
+### 2014/1
+
+<b>Questão Única:</b> (100  pontos) Faça um programa que leia N datas, 1 ≤ N ≤ 20000, e as coloque em uma matriz DATAS N×3 , onde a primeira coluna corresponde ao dia, a segunda ao mês e a terceira ao ano. Seu programa deve imprimir na saı́da a matriz resultante da operação de colocar essas datas em ordem cronológica crescente. Por exemplo:
+```
+        | 15   1  1996 |             | 16   3  1951 |
+        |  5  11  1965 |             | 25   6  1965 |
+DATAS = | 16   3  1951 |     SAIDA = |  5  11  1965 |
+        |  5   1  1996 |             |  5   1  1996 |
+        | 25   6  1965 |             | 15   1  1996 |
+```
+
