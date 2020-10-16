@@ -1,5 +1,5 @@
 # Algoritmos e Estruturas de Dados I
-Repositório com os programas escritos em Pascal durante o estudo da disciplina de Algoritmos e Estruturas de Dados I.
+Repositório com os programas escritos em Pascal durante o estudo da disciplina de Algoritmos e Estruturas de Dados I (UFPR).
 
 Site da disciplina: [CI1055 - Algoritmos e Estruturas de Dados](http://www.inf.ufpr.br/cursos/ci055/)
 
